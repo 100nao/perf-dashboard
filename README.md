@@ -15,7 +15,42 @@
 
 ## 画面
 
-パスワードを入れると、既存のタブの並びに「イベント・ニュース」が足されます。タブの位置を判定できない場合は、画面右上に同じボタンを出します。読み込みに失敗したときは「イベントとニュースを読み込めませんでした。時間をおいて、もう一度開いてください。」と出て、数値の画面はそのままです。
+パスワードを入れると、既存のタブ（SMM、サマリー分析など）の並びに「イベント・ニュース」が足されます。スマホでは右上メニューのタブ一覧にも出ます。タブの位置を判定できない場合は、画面右上に同じボタンを出します。読み込みに失敗したときは「イベントとニュースを読み込めませんでした。時間をおいて、もう一度開いてください。」と出て、数値の画面はそのままです。
+
+パスワードを手で入れる経路も、「Remember me」で自動的に開く経路も、同じ復号処理（`replaceHtmlCallback`）を通ります。
+
+## 再ビルド時にソースへ残すもの
+
+週次のダッシュボードは別のマシンで HTML を作り直し、StatiCrypt で暗号化して、このリポジトリの `index.html` を丸ごと置き換えます。そのとき、パスワード画面に足した読み込み処理は消えます。暗号化される中身のほうに、次のブロックを残してください。
+
+置く場所は、ソース HTML の最後の `</script>` のあと、`</body>` のすぐ前です。`briefing-snippet.html` と同じ内容です。
+
+```html
+<script>
+(function () {
+  if (window.__PD_BRIEF_LOAD) return;
+  window.__PD_BRIEF_LOAD = true;
+  var path = location.pathname;
+  var base = /\/$/.test(path) ? path : (/\.[a-z0-9]+$/i.test(path) ? path.replace(/[^/]*$/, "") : path + "/");
+  window.__PD_BRIEF_BASE = base;
+  function load() {
+    var css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = base + "briefing.css";
+    (document.head || document.documentElement).appendChild(css);
+    var script = document.createElement("script");
+    script.src = base + "briefing.js";
+    (document.body || document.documentElement).appendChild(script);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", load);
+  else load();
+})();
+</script>
+```
+
+このブロックがあると、再暗号化のあとでも `briefing.js`、`briefing.css`、`data/briefing.json` を読みます。この3つは暗号化した HTML の外に置いたままにしてください。
+
+`#tab=` の値はこのダッシュボードが知っているタブ（`smm` や `sum` など）だけです。イベント・ニュースはハッシュを変えません。知らない値はサマリー側の処理が `smm` に戻すためです。
 
 ## インバウンドマップとの違い
 

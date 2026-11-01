@@ -22,6 +22,16 @@
   display: none !important;
 }
 
+/* The dashboard hides every section and styles every header.
+   Keep this panel's own blocks visible even if a future rebuild
+   adds more element-level rules. */
+#pd-briefing .pd-head,
+#pd-briefing .pd-card {
+  display: block;
+  position: static;
+  z-index: auto;
+}
+
 #pd-briefing * {
   box-sizing: border-box;
 }
