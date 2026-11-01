@@ -31,6 +31,11 @@
     return path + "/";
   }
   var base = pageBase();
+  if (!window.__PD_MENU_SWIPE) {
+    var swipe = document.createElement("script");
+    swipe.src = base + "menu-swipe.js";
+    (document.body || document.documentElement).appendChild(swipe);
+  }
   var dataUrl = window.__PD_BRIEF_URL || (base + "data/briefing.json?v=" + stamp());
   var doc = null;
   var failed = false;
