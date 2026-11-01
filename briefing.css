@@ -18,6 +18,15 @@
   -webkit-font-smoothing: antialiased;
 }
 
+/* The phone menu paints its dimmer at 80, the drawer at 81, and the
+   bottom sheet at 82. This panel sits at 1000, so while the event tab
+   is open it covers the lower half of that menu. Drop under the dimmer
+   for as long as the menu or the sheet is open. */
+body.mopen #pd-briefing,
+body.sopen #pd-briefing {
+  z-index: 79;
+}
+
 #pd-briefing[hidden] {
   display: none !important;
 }
@@ -246,9 +255,32 @@
   color: #fff;
 }
 
+#pd-briefing .pd-names {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
 #pd-briefing .pd-more {
   font-size: 10px;
   color: var(--pd-muted);
+}
+
+#pd-briefing .pd-dots { display: none; }
+
+#pd-briefing .pd-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#pd-briefing .pd-count {
+  font-size: 10px;
+  font-weight: 800;
+  color: var(--pd-muted);
+  line-height: 6px;
 }
 
 #pd-briefing .pd-daybox {
@@ -448,10 +480,25 @@
 
 @media (max-width: 860px) {
   #pd-briefing .pd-cols { grid-template-columns: 1fr; }
-  #pd-briefing .pd-cell { min-height: 42px; }
-  #pd-briefing .pd-hol,
-  #pd-briefing .pd-ev,
-  #pd-briefing .pd-more { display: none; }
+  #pd-briefing .pd-cell {
+    min-height: 46px;
+    padding: 3px 2px 4px;
+    align-items: center;
+  }
+  #pd-briefing .pd-names { display: none; }
+  #pd-briefing .pd-dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    max-width: 100%;
+  }
+  #pd-briefing .pd-hol {
+    align-self: stretch;
+    font-size: 9px;
+    text-align: left;
+  }
   #pd-briefing .pd-news { max-height: none; }
   #pd-briefing .pd-wrap { padding: 14px 12px 32px; }
 }

@@ -80,7 +80,17 @@
   function onDay(it, dayIso) {
     return it.date_start && it.date_start <= dayIso && (it.date_end || it.date_start) >= dayIso;
   }
-  function isHol(it) { return it.category === "祝日・連休"; }
+  function isHol(it) { return it.category === "祝日・連休" || !it.prefecture; }
+  function sortEv(a, b) {
+    return (isHol(a) ? 0 : 1) - (isHol(b) ? 0 : 1)
+      || String(a.date_start || "").localeCompare(String(b.date_start || ""))
+      || String(a.name || "").localeCompare(String(b.name || ""), "ja");
+  }
+  function holLabel(it) {
+    var country = it.source_country || "";
+    var name = it.name || "祝日・連休";
+    return country ? country + "・" + name : name;
+  }
   function visible(it) {
     if (isHol(it)) return true;
     return !pref || it.prefecture === pref;
@@ -330,17 +340,23 @@
     for (var d = 1; d <= dim(month); d++) {
       var dayIso = iso(month, d);
       var dow = new Date(y, m - 1, d).getDay();
-      var list = items.filter(function (it) { return onDay(it, dayIso); });
-      var hols = list.filter(isHol).slice(0, 2);
+      var list = items.filter(function (it) { return onDay(it, dayIso); }).sort(sortEv);
+      var hols = list.filter(isHol);
       var shows = list.filter(function (it) { return !isHol(it); });
-      var names = shows.slice(0, 2).map(function (it) {
+      var shown = shows.slice(0, 2);
+      var more = shows.length - shown.length;
+      var holHtml = hols.slice(0, 2).map(function (it) {
+        var lab = holLabel(it);
+        return '<span class="pd-hol" title="' + esc(lab) + '">' + esc(lab) + "</span>";
+      }).join("") + (hols.length > 2 ? '<span class="pd-hol">ほか' + (hols.length - 2) + "件</span>" : "");
+      var nameHtml = shown.map(function (it) {
         return '<span class="pd-ev" style="background:' + (COLORS[it.category] || "#3e4f6d") + '">' + esc(it.name) + "</span>";
-      }).join("");
-      var more = shows.length - Math.min(shows.length, 2);
-      html += '<button type="button" class="pd-cell' + (d === day ? " on" : "") + '" data-d="' + d + '"><span class="pd-num' + (dow === 0 ? " sun" : dow === 6 ? " sat" : "") + '">' + d + "</span>" + hols.map(function (it) {
-        var lab = (it.source_country ? it.source_country + " " : "") + it.name;
-        return '<span class="pd-hol">' + esc(lab) + "</span>";
-      }).join("") + names + (more > 0 ? '<span class="pd-more">+' + more + "</span>" : "") + "</button>";
+      }).join("") + (more > 0 ? '<span class="pd-more">+' + more + "</span>" : "");
+      var extra = shows.length - Math.min(shows.length, 4);
+      var dots = shows.slice(0, 4).map(function (it) {
+        return '<i class="pd-dot" style="background:' + (COLORS[it.category] || "#3e4f6d") + '"></i>';
+      }).join("") + (extra > 0 ? '<span class="pd-count">+' + extra + "</span>" : "");
+      html += '<button type="button" class="pd-cell' + (d === day ? " on" : "") + '" data-d="' + d + '"><span class="pd-num' + (dow === 0 ? " sun" : dow === 6 ? " sat" : "") + '">' + d + "</span>" + holHtml + '<span class="pd-names">' + nameHtml + '</span><span class="pd-dots">' + dots + "</span></button>";
     }
     html += "</div>";
     html += dayDetail(items);
@@ -386,9 +402,7 @@
     var parts = month.split("-").map(Number);
     var dayIso = iso(month, day);
     var dow = WEEK[new Date(parts[0], parts[1] - 1, day).getDay()];
-    var list = items.filter(function (it) { return onDay(it, dayIso); }).sort(function (a, b) {
-      return (isHol(a) ? 0 : 1) - (isHol(b) ? 0 : 1) || String(a.name).localeCompare(String(b.name), "ja");
-    });
+    var list = items.filter(function (it) { return onDay(it, dayIso); }).sort(sortEv);
     var scope = pref || "全国";
     var body = list.length ? list.map(detailRow).join("") : '<p class="pd-empty">この日のイベントはありません。</p>';
     return '<div class="pd-daybox"><h3>' + parts[0] + "年" + parts[1] + "月" + day + "日（" + dow + "）<span>" + esc(scope) + " · " + list.length + "件</span></h3>" + body + "</div>";
