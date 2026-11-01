@@ -826,7 +826,19 @@ exports.init = init;
             const templateConfig = {
                 rememberExpirationKey: "staticrypt_expiration",
                 rememberPassphraseKey: "staticrypt_passphrase",
-                replaceHtmlCallback: null,
+                replaceHtmlCallback: function (plainHTML) {
+                    try {
+                        var base = location.pathname.replace(/[^/]*$/, "");
+                        var extra = '<link rel="stylesheet" href="' + base + 'briefing.css"><script>window.__PD_BRIEF_BASE=' + JSON.stringify(base) + ';<\/script><script src="' + base + 'briefing.js" defer><\/script>';
+                        var mark = "</body>";
+                        var at = plainHTML.lastIndexOf(mark);
+                        if (at < 0) { mark = "</BODY>"; at = plainHTML.lastIndexOf(mark); }
+                        if (at >= 0) plainHTML = plainHTML.slice(0, at) + extra + plainHTML.slice(at);
+                        else plainHTML += extra;
+                    } catch (e) {}
+                    document.write(plainHTML);
+                    document.close();
+                },
                 clearLocalStorageCallback: null,
             };
 
