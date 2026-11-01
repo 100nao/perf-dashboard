@@ -1,14 +1,18 @@
 /* Open and close the dashboard's own phone menu with an edge swipe.
    The drawer is the one created by mOpen / the blue "menu" button.
-   Listeners are passive, so vertical scrolling and horizontal card
-   carousels keep their normal touch behavior. */
+   iOS Safari keeps the outermost pixels, so the start zone is wide
+   and a short flick counts. A non-passive touchmove is attached only
+   for a touch that can become this gesture, and preventDefault runs
+   only after the swipe is recognized. */
 (function () {
   "use strict";
   if (window.__PD_MENU_SWIPE) return;
   window.__PD_MENU_SWIPE = true;
 
-  var EDGE = 30;
-  var DIST = 60;
+  var EDGE = 60;
+  var DIST = 35;
+  var FLICK_PX = 20;
+  var FLICK_V = 0.3;
   var tracking = null;
 
   function mobileMenu() {
@@ -18,18 +22,6 @@
 
   function drawerOpen() {
     return document.body.classList.contains("mopen");
-  }
-
-  function horizontalScroller(node) {
-    var el = node && node.nodeType === 1 ? node : node && node.parentElement;
-    while (el && el !== document.body && el !== document.documentElement) {
-      if (el.classList && (el.classList.contains("mcar") || el.classList.contains("mswipe") || el.classList.contains("chartbox"))) return true;
-      if (el.tagName === "CANVAS") return true;
-      var ox = window.getComputedStyle(el).overflowX;
-      if ((ox === "auto" || ox === "scroll") && el.scrollWidth > el.clientWidth + 4) return true;
-      el = el.parentElement;
-    }
-    return false;
   }
 
   function openMenu() {
@@ -48,34 +40,50 @@
     }
   }
 
-  document.addEventListener("touchstart", function (e) {
+  function recognized(dx, dy, elapsed) {
+    var adx = Math.abs(dx);
+    var ady = Math.abs(dy);
+    if (adx <= ady) return false;
+    if (adx >= DIST) return true;
+    return adx >= FLICK_PX && adx / Math.max(1, elapsed) > FLICK_V;
+  }
+
+  function onMove(e) {
+    if (!tracking || !e.touches || !e.touches.length) return;
+    if (tracking.fired) {
+      if (e.cancelable) e.preventDefault();
+      return;
+    }
+    var t = e.touches[0];
+    var dx = t.clientX - tracking.x;
+    var dy = t.clientY - tracking.y;
+    var elapsed = Date.now() - tracking.t;
+    if (!recognized(dx, dy, elapsed)) return;
+    var open = tracking.open && dx > 0;
+    var fromEdge = !tracking.open && dx < 0;
+    if (!open && !fromEdge) return;
+    if (e.cancelable) e.preventDefault();
+    tracking.fired = true;
+    if (open) closeMenu();
+    else openMenu();
+  }
+
+  function stopTracking() {
+    document.removeEventListener("touchmove", onMove);
     tracking = null;
+  }
+
+  document.addEventListener("touchstart", function (e) {
+    stopTracking();
     if (!mobileMenu() || !e.touches || e.touches.length !== 1) return;
     var t = e.touches[0];
     var open = drawerOpen();
-    if (!open) {
-      if (t.clientX < window.innerWidth - EDGE) return;
-      if (horizontalScroller(e.target)) return;
-    }
-    tracking = { x: t.clientX, y: t.clientY, open: open };
+    var inEdge = t.clientX >= window.innerWidth - EDGE;
+    if (!open && !inEdge) return;
+    tracking = { x: t.clientX, y: t.clientY, t: Date.now(), open: open, fired: false };
+    document.addEventListener("touchmove", onMove, { passive: false });
   }, { passive: true });
 
-  document.addEventListener("touchend", function (e) {
-    if (!tracking || !e.changedTouches || !e.changedTouches.length) {
-      tracking = null;
-      return;
-    }
-    var t = e.changedTouches[0];
-    var dx = t.clientX - tracking.x;
-    var dy = t.clientY - tracking.y;
-    var open = tracking.open;
-    tracking = null;
-    if (Math.abs(dx) < DIST || Math.abs(dx) <= Math.abs(dy) * 1.5) return;
-    if (!open && dx <= -DIST) openMenu();
-    else if (open && dx >= DIST) closeMenu();
-  }, { passive: true });
-
-  document.addEventListener("touchcancel", function () {
-    tracking = null;
-  }, { passive: true });
+  document.addEventListener("touchend", stopTracking, { passive: true });
+  document.addEventListener("touchcancel", stopTracking, { passive: true });
 })();
