@@ -1,0 +1,26 @@
+<!--
+  イベント・ニュース。
+  ダッシュボードのソース HTML を StatiCrypt で暗号化する直前に、
+  このブロックを </body> のすぐ前へ置く。毎週の再ビルドでも消さない。
+  詳細は README.md の「再ビルド時にソースへ残すもの」。
+-->
+<script>
+(function () {
+  if (window.__PD_BRIEF_LOAD) return;
+  window.__PD_BRIEF_LOAD = true;
+  var path = location.pathname;
+  var base = /\/$/.test(path) ? path : (/\.[a-z0-9]+$/i.test(path) ? path.replace(/[^/]*$/, "") : path + "/");
+  window.__PD_BRIEF_BASE = base;
+  function load() {
+    var css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = base + "briefing.css";
+    (document.head || document.documentElement).appendChild(css);
+    var script = document.createElement("script");
+    script.src = base + "briefing.js";
+    (document.body || document.documentElement).appendChild(script);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", load);
+  else load();
+})();
+</script>

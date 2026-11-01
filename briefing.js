@@ -14,7 +14,22 @@
   var WEEK = ["日", "月", "火", "水", "木", "金", "土"];
   var PREFS = ["北海道","青森県","岩手県","宮城県","秋田県","山形県","福島県","茨城県","栃木県","群馬県","埼玉県","千葉県","東京都","神奈川県","新潟県","富山県","石川県","福井県","山梨県","長野県","岐阜県","静岡県","愛知県","三重県","滋賀県","京都府","大阪府","兵庫県","奈良県","和歌山県","鳥取県","島根県","岡山県","広島県","山口県","徳島県","香川県","愛媛県","高知県","福岡県","佐賀県","長崎県","熊本県","大分県","宮崎県","鹿児島県","沖縄県"];
 
-  var base = window.__PD_BRIEF_BASE || location.pathname.replace(/[^/]*$/, "");
+  if (window.__PD_BRIEF_BOOTED) return;
+  window.__PD_BRIEF_BOOTED = true;
+
+  function pageBase() {
+    if (window.__PD_BRIEF_BASE) return window.__PD_BRIEF_BASE;
+    var scripts = document.getElementsByTagName("script");
+    for (var i = scripts.length - 1; i >= 0; i--) {
+      var src = scripts[i].getAttribute("src") || "";
+      if (/briefing\.js(?:\?|$)/.test(src)) return src.replace(/briefing\.js(?:\?.*)?$/, "");
+    }
+    var path = location.pathname;
+    if (/\/$/.test(path)) return path;
+    if (/\.[a-z0-9]+$/i.test(path)) return path.replace(/[^/]*$/, "");
+    return path + "/";
+  }
+  var base = pageBase();
   var dataUrl = window.__PD_BRIEF_URL || (base + "data/briefing.json?v=" + stamp());
   var doc = null;
   var failed = false;
@@ -72,6 +87,12 @@
   }
 
   function findTabs() {
+    var nav = document.getElementById("tabs");
+    if (nav) {
+      return Array.prototype.filter.call(nav.querySelectorAll("button[data-tab]"), function (el) {
+        return !el.getAttribute("data-pd-tab");
+      });
+    }
     var out = [];
     var nodes = document.querySelectorAll("a, button, [role='tab']");
     for (var i = 0; i < nodes.length; i++) {
@@ -136,7 +157,7 @@
     var el = document.createElement("div");
     el.id = "pd-briefing";
     el.hidden = true;
-    el.innerHTML = '<div class="pd-wrap"><header class="pd-head"><div><h1>イベント・ニュース</h1><p class="pd-asof">読み込み中…</p></div></header><p class="pd-warn" hidden></p><div class="pd-cols"><section class="pd-card" id="pd-cal"><h2>イベントカレンダー</h2><p class="pd-empty">読み込み中…</p></section><section class="pd-card" id="pd-news"><h2>毎日のニュース</h2><p class="pd-empty">読み込み中…</p></section></div></div>';
+    el.innerHTML = '<div class="pd-wrap"><div class="pd-head"><div><h1>イベント・ニュース</h1><p class="pd-asof">読み込み中…</p></div></div><p class="pd-warn" hidden></p><div class="pd-cols"><div class="pd-card" id="pd-cal"><h2>イベントカレンダー</h2><p class="pd-empty">読み込み中…</p></div><div class="pd-card" id="pd-news"><h2>毎日のニュース</h2><p class="pd-empty">読み込み中…</p></div></div></div>';
     document.body.appendChild(el);
     return el;
   }
@@ -149,6 +170,7 @@
       if (!existing) {
         existing = tabs[0].cloneNode(false);
         existing.textContent = "イベント・ニュース";
+        existing.className = "";
         existing.removeAttribute("id");
         existing.removeAttribute("href");
         existing.removeAttribute("onclick");
@@ -159,6 +181,7 @@
         bar.appendChild(existing);
         existing.addEventListener("click", onTabClick);
       }
+      syncMobile();
       var fallback = document.getElementById("pd-brief-fallback");
       if (fallback) fallback.remove();
       activeClass = detectActiveClass(tabs);
@@ -175,31 +198,62 @@
     return box.querySelector("button");
   }
 
+  function syncMobile() {
+    var box = document.getElementById("mTabs");
+    if (!box || box.querySelector("[data-pd-tab='brief']")) return;
+    var b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("data-pd-tab", "brief");
+    b.textContent = "イベント・ニュース";
+    b.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      document.body.classList.remove("mopen");
+      openPanel();
+    });
+    box.appendChild(b);
+  }
+
   function place() {
     if (!panel || !button) return;
-    var anchor = button.closest("header, nav") || button.parentElement;
+    var header = document.querySelector("header");
+    var anchor = header || button.closest("header, nav") || button.parentElement;
+    if (anchor.id === "pd-brief-fallback") {
+      panel.style.top = "56px";
+      return;
+    }
     var rect = anchor.getBoundingClientRect();
-    var top = anchor.id === "pd-brief-fallback" ? 56 : Math.max(48, Math.min(rect.bottom, 160));
-    panel.style.top = top + "px";
+    panel.style.top = Math.max(rect.bottom, 0) + "px";
+  }
+
+  function paintTabs(on) {
+    var name = activeClass || "active";
+    findTabs().forEach(function (tab) { tab.classList.remove(name); });
+    document.querySelectorAll("[data-pd-tab='brief']").forEach(function (tab) {
+      tab.classList.toggle(name, on);
+      tab.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    if (!on) {
+      var current = (location.hash.match(/(?:^#|&)tab=([A-Za-z0-9_-]+)/) || [])[1] || "";
+      findTabs().forEach(function (tab) {
+        tab.classList.toggle(name, tab.getAttribute("data-tab") === current);
+      });
+    }
   }
 
   function openPanel() {
     opened = true;
     panel.hidden = false;
-    button.setAttribute("aria-pressed", "true");
-    if (activeClass) {
-      findTabs().forEach(function (tab) { tab.classList.remove(activeClass); });
-      button.classList.add(activeClass);
-    }
+    if (button) button.setAttribute("aria-pressed", "true");
+    paintTabs(true);
     place();
-    if (location.hash !== "#tab=brief") history.pushState({ pdBrief: 1 }, "", "#tab=brief");
   }
 
   function closePanel() {
     opened = false;
-    panel.hidden = true;
-    button.setAttribute("aria-pressed", "false");
-    if (activeClass) button.classList.remove(activeClass);
+    if (panel) panel.hidden = true;
+    if (button) button.setAttribute("aria-pressed", "false");
+    paintTabs(false);
   }
 
   function onTabClick(e) {
@@ -207,13 +261,6 @@
     e.stopPropagation();
     if (opened) closePanel();
     else openPanel();
-  }
-
-  function hashOf(el) {
-    var blob = "";
-    for (var i = 0; i < el.attributes.length; i++) blob += " " + el.attributes[i].value;
-    var m = blob.match(/tab=([A-Za-z0-9_-]+)/);
-    return m ? "#tab=" + m[1] : "";
   }
 
   function failMessage() {
@@ -491,29 +538,22 @@
       applyChrome();
       load();
       document.addEventListener("click", function (e) {
-        var tab = e.target.closest && e.target.closest("a, button, [role='tab']");
+        var tab = e.target.closest && e.target.closest("button, a");
         if (!tab || tab.getAttribute("data-pd-tab")) return;
-        var blob = "";
-        for (var i = 0; i < tab.attributes.length; i++) blob += " " + tab.attributes[i].value;
-        if (!(/tab=/.test(blob) || tab.getAttribute("role") === "tab" || tab.hasAttribute("data-tab"))) return;
-        var next = hashOf(tab);
-        closePanel();
-        if (location.hash === "#tab=brief" && next) history.replaceState(null, "", next);
+        var inBar = tab.closest("#tabs, #mTabs");
+        if (!inBar) return;
+        if (tab.hasAttribute("data-tab") || tab.hasAttribute("data-t")) closePanel();
       }, true);
-      window.addEventListener("popstate", function () {
-        if (location.hash === "#tab=brief") openPanel();
-        else closePanel();
-      });
       window.addEventListener("resize", place);
-        var waits = 0;
-      var timer = setInterval(function () {
-        waits += 1;
-        button = ensureTab();
-        applyChrome();
-        if (opened) place();
-        if (waits > 20) clearInterval(timer);
-      }, 400);
-      if (location.hash === "#tab=brief") openPanel();
+      if (window.MutationObserver) {
+        var obs = new MutationObserver(function () {
+          button = ensureTab();
+          syncMobile();
+          if (opened) place();
+        });
+        obs.observe(document.body, { childList: true, subtree: true });
+        setTimeout(function () { obs.disconnect(); }, 4000);
+      }
     } catch (err) {
       /* The dashboard itself must keep working. */
     }
