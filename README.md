@@ -2,6 +2,8 @@
 
 宿泊・販売の数値は、これまでどおりパスワード付きの `index.html` の中にあります。イベントカレンダーは、その外側の `data/briefing.json` を開いたあとに読み込みます。ニュースまとめは、インバウンドマップが GitHub Pages で公開している `news.json` と `hotel_openings.json` を開いたあとに読み込みます。
 
+`bd-area/` is the 直輝チーム 2027 BDエリア権限シミュレータ (password protected).
+
 ## 更新の流れ
 
 1. GitHub Actions の「Collect event calendar and daily news」が、毎日 8:40（日本時間）に動きます。時刻は UTC の `40 23 * * *` です。GitHub の定期実行は遅れることがあります。
