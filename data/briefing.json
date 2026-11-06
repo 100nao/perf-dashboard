@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "window": {
     "start": "2026-11-01",
     "end": "2027-10-31"
   },
   "warnings": [],
   "events": {
-    "updated": "2026-11-05",
+    "updated": "2026-11-06",
     "note": "ドームの公演・試合と、日本および主な訪日市場の連休です。",
     "items": [
       {
@@ -145,10 +145,10 @@
         "note": ""
       },
       {
-        "id": "dome-2026-11-25-37a301b1",
+        "id": "dome-2026-11-25-c454c12e",
         "date_start": "2026-11-25",
         "date_end": "2026-11-26",
-        "name": "超特急",
+        "name": "超特急『BULLET TRAIN 1st DOME LIVE Signal』",
         "category": "コンサート",
         "prefecture": "東京都",
         "venue": "東京ドーム",
@@ -910,6 +910,21 @@
         "note": ""
       },
       {
+        "id": "dome-2027-03-26-27062117",
+        "date_start": "2027-03-26",
+        "date_end": "2027-03-28",
+        "name": "巨人ー中日",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
         "id": "hk-2027-03-26-1c9dcb50",
         "date_start": "2027-03-26",
         "date_end": "2027-03-29",
@@ -940,6 +955,36 @@
         "note": ""
       },
       {
+        "id": "dome-2027-04-02-5ffa1245",
+        "date_start": "2027-04-02",
+        "date_end": "2027-04-04",
+        "name": "巨人ー阪神",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-04-09-4e8ebd9f",
+        "date_start": "2027-04-09",
+        "date_end": "2027-04-11",
+        "name": "巨人ー広島",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
         "id": "th-2027-04-13-fea59517",
         "date_start": "2027-04-13",
         "date_end": "2027-04-15",
@@ -953,6 +998,36 @@
         "announced_date": "",
         "status": "予定",
         "note": "例年4月13日から15日です。その年の正式発表は別途確認してください。"
+      },
+      {
+        "id": "dome-2027-04-22-95272a01",
+        "date_start": "2027-04-22",
+        "date_end": "2027-04-22",
+        "name": "巨人ーヤクルト",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-04-27-8258a676",
+        "date_start": "2027-04-27",
+        "date_end": "2027-04-29",
+        "name": "巨人ーDeNA",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
       },
       {
         "id": "jp-2027-04-29-5cece302",
@@ -1000,6 +1075,156 @@
         "note": ""
       },
       {
+        "id": "dome-2027-05-03-4e8ebd9f",
+        "date_start": "2027-05-03",
+        "date_end": "2027-05-05",
+        "name": "巨人ー広島",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-05-14-27062117",
+        "date_start": "2027-05-14",
+        "date_end": "2027-05-16",
+        "name": "巨人ー中日",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-05-21-95272a01",
+        "date_start": "2027-05-21",
+        "date_end": "2027-05-23",
+        "name": "巨人ーヤクルト",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-05-27-8258a676",
+        "date_start": "2027-05-27",
+        "date_end": "2027-05-27",
+        "name": "巨人ーDeNA",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-06-04-4e1e3c08",
+        "date_start": "2027-06-04",
+        "date_end": "2027-06-06",
+        "name": "巨人ー日本ハム",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-06-15-cb6cb964",
+        "date_start": "2027-06-15",
+        "date_end": "2027-06-17",
+        "name": "巨人ー楽天",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-06-18-15a0c60f",
+        "date_start": "2027-06-18",
+        "date_end": "2027-06-20",
+        "name": "巨人ー西武",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-06-25-5ffa1245",
+        "date_start": "2027-06-25",
+        "date_end": "2027-06-27",
+        "name": "巨人ー阪神",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-07-02-27062117",
+        "date_start": "2027-07-02",
+        "date_end": "2027-07-04",
+        "name": "巨人ー中日",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-07-09-95272a01",
+        "date_start": "2027-07-09",
+        "date_end": "2027-07-11",
+        "name": "巨人ーヤクルト",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
         "id": "kr-2027-07-17-9ffaa48c",
         "date_start": "2027-07-17",
         "date_end": "2027-07-19",
@@ -1025,6 +1250,51 @@
         "scale": "",
         "source_country": "日本",
         "source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-07-27-5ffa1245",
+        "date_start": "2027-07-27",
+        "date_end": "2027-07-29",
+        "name": "巨人ー阪神",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-08-03-8258a676",
+        "date_start": "2027-08-03",
+        "date_end": "2027-08-05",
+        "name": "巨人ーDeNA",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-08-10-95272a01",
+        "date_start": "2027-08-10",
+        "date_end": "2027-08-12",
+        "name": "巨人ーヤクルト",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
         "announced_date": "",
         "status": "",
         "note": ""
@@ -1060,6 +1330,51 @@
         "note": ""
       },
       {
+        "id": "dome-2027-08-17-5ffa1245",
+        "date_start": "2027-08-17",
+        "date_end": "2027-08-19",
+        "name": "巨人ー阪神",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-08-20-8258a676",
+        "date_start": "2027-08-20",
+        "date_end": "2027-08-22",
+        "name": "巨人ーDeNA",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-09-04-4e8ebd9f",
+        "date_start": "2027-09-04",
+        "date_end": "2027-09-05",
+        "name": "巨人ー広島",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
         "id": "kr-2027-09-14-e169af80",
         "date_start": "2027-09-14",
         "date_end": "2027-09-16",
@@ -1070,6 +1385,21 @@
         "scale": "",
         "source_country": "韓国",
         "source": "https://date.nager.at/api/v3/PublicHolidays/2027/KR",
+        "announced_date": "",
+        "status": "",
+        "note": ""
+      },
+      {
+        "id": "dome-2027-09-17-8258a676",
+        "date_start": "2027-09-17",
+        "date_end": "2027-09-18",
+        "name": "巨人ーDeNA",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
         "announced_date": "",
         "status": "",
         "note": ""
@@ -1118,6 +1448,21 @@
         "announced_date": "",
         "status": "予定",
         "note": "連休の長さは例年の日数です。その年の正式発表前です。"
+      },
+      {
+        "id": "dome-2027-10-02-4e8ebd9f",
+        "date_start": "2027-10-02",
+        "date_end": "2027-10-03",
+        "name": "巨人ー広島",
+        "category": "コンサート",
+        "prefecture": "東京都",
+        "venue": "東京ドーム",
+        "scale": "ドーム",
+        "source_country": "",
+        "source": "https://www.tokyo-dome.co.jp/dome/baseball",
+        "announced_date": "",
+        "status": "",
+        "note": ""
       },
       {
         "id": "kr-2027-10-02-6cdbb1f7",
@@ -1197,7 +1542,7 @@
     ]
   },
   "news": {
-    "updated": "2026-11-05",
+    "updated": "2026-11-06",
     "note": "旅行・航空・OTAの公開RSSです。手書きの実務メモはありません。",
     "filters": [
       {
@@ -1215,10 +1560,154 @@
     ],
     "items": [
       {
-        "id": "news-1f0b2265",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
+        "id": "news-d23eb82b",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "航空機リース大手アボロン、737-10を140機確定発注 737MAXの発注残は240機以上に拡大",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/06/major-aircraft-lessor-avolon-places-firm-order-for-140-737-10s/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-b9277c8c",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "生活衛生功労者表彰 旅館・ホテルから25氏",
+        "body": "厚生労働省と全国生活衛生同業組合中央会は10月23日、東京のホテルニューオータニで今年度の「生活衛生功労者表彰式」を開いた。生活衛生16業種から厚労大臣表彰103人、中央会理事長表彰141人が受賞。旅館・ホテルからは大",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611060630kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-f1552827",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "流通経済大学、航空保安経験持つ事務職員が登壇 教職協働で空港の仕事とキャリアを学ぶ",
+        "body": "流通経済大学は10月28日、共創社会学部の講義「観光産業論Ⅰ」（担当・神田達哉准教授）において、成田空港などで約20年間、航空保安業務に携わった付属中学高校事務室の伊藤秀範課長代理をゲスト講師に迎えた。国際文化ツーリズ",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611060830kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-e27873fc",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "ホテル協会信越支部が新潟・長野で初連携、13ホテルでスタンプラリー",
+        "body": "日本ホテル協会信越支部（伊達美和子支部長＝長野県・万平ホテル）は10月31日から、新潟県と長野県の加盟ホテルによる初の共同イベントとして、デジタルスタンプラリー「ぐるっと信越ホテルめぐり」を実施している。ホテル単体の来",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611060730kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-7f32e0b8",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "フォションホテル京都が公式オンラインショップを開設 京都限定イラスト缶の「ガレット・ブルトンヌ」やバスクチーズケーキを全国へ",
+        "body": "フォションホテル京都(京都府京都市下京区、総支配人:胡麻本浄)は10月27日、ホテル公式オンラインショップのオープンを発表した。パリ発祥の美食ブランド「フォション」による日本初のグルメホテルが、ホテルメイドの美食とギフ",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611061130kks-2/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-078c1e7a",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "カンタス航空、737-800型機44機を英AerFinへ売却 A321XLR等への機材更新に伴い7年かけ段階的に移管",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/06/qantas-sells-44-737-800-aircraft-to-uk-based-aerfin/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-5cc3a3bf",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
         "feed": "industry",
         "feedLabel": "Aviation Wire",
         "category": "✈️ 国際線",
@@ -1226,23 +1715,23 @@
         "theme": "flights",
         "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "複雑な入国手続きで渡航見送り43％ 空港の生体認証は58％利用＝IATA調査",
-        "body": "IATA（国際航空運送協会）は現地時間10月28日、2026年の世界旅客調査（GPS）の結果を発表した。過去12カ月間に空港で生体認証を経験した回答者は58％で、前年の50％から8ポイント上昇した。一方、入国要件を理由",
+        "headline": "エメラルド、国際航空貨物の運賃申請支援 サーチャージも",
+        "body": "航空機の各種申請支援などを手掛けるエメラルド・エアー・サービス（EAS、東京・港区）は11月5日、日本発国際航空貨物の運賃や燃油サーチャージなどの申請支援サービスを開始したと発表した。海外の貨物航空会社などを対象に、燃",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.aviationwire.jp/archives/353662",
+            "url": "https://www.aviationwire.jp/archives/353755",
             "label": "aviationwire.jp"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-1ff7a859",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
+        "id": "news-e2d405f8",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
         "feed": "industry",
         "feedLabel": "観光経済新聞",
         "category": "旅行業界",
@@ -1250,23 +1739,23 @@
         "theme": "domestic",
         "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "木村観光庁長官、カスハラ防止対策は「人材確保・定着に極めて重要」",
-        "body": "10月1日から、企業によるカスタマーハラスメント（カスハラ）防止対策が法的義務となったことを受け、観光庁の木村典央長官は10月21日の定例会見で、観光業界におけるカスハラ防止への取り組みについて、「人材確保・定着の観点",
+        "headline": "【私の視点 観光羅針盤 544】男女格差の是正は可能か 石森秀三",
+        "body": "グローバル課題解決を目指すスイスの非営利財団「世界経済フォーラム（ＷＥＦ）」は9月に日本にとって明暗を分ける二つのランキングを公表した。一つは「旅行・観光開発指数」で日本は世界第1位と評価された（本欄10月19日付参照",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611050630kks/",
+            "url": "https://www.kankokeizai.com/2611061100kks/",
             "label": "kankokeizai.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-bcd5f0da",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
+        "id": "news-d5b89ff1",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
         "feed": "industry",
         "feedLabel": "観光経済新聞",
         "category": "旅行業界",
@@ -1274,20 +1763,236 @@
         "theme": "domestic",
         "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "大阪観光局、長野県山ノ内町、ＡＣＮ研と三者連携協定 事業承継と観光振興で",
-        "body": "大阪観光局は10月23日、長野県山ノ内町、ＡＣＮ経営研究所と「地域産業の持続的発展及び観光を通じた地方創生に関する三者連携協定」を締結した。地域事業者の後継者不足や事業継続の課題解決を図るとともに、事業承継と観光振興を",
+        "headline": "【VOICE】観光の現場を支える外国人材 株式会社シンシアインターナショナル代表取締役 行政書士 中小企業診断士 鶴野 祐二氏",
+        "body": "インバウンド対応は内なる国際化から 2025年の訪日客数は過去最高の約4268万人に達し、初めて4千万人を突破した。オーバーツーリズムの懸念はあるものの、インバウンド需要は宿泊業界にとって依然として重要な成長の生命線だ",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611051000kks/",
+            "url": "https://www.kankokeizai.com/2611061200kks/",
             "label": "kankokeizai.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-2d87d0e4",
+        "id": "news-4afcf785",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "【12/3 無料オンラインセミナー】「わが国おける ホテル・旅館の実情」 徳江順一郎氏（東洋大学国際観光学部 准教授）",
+        "body": "【第64回】 2026年12月3日（木）13：00～14：00 講師：徳江順一郎氏（東洋大学国際観光学部 准教授） 講演名：「わが国おける ホテル・旅館の実情」 【セミナーの概要】 日本が誇る「おもてなし」というが、実際",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2610061430kks-2-2-2-2-2-2-2-2/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-7b23e865",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "🏨 ホテル",
+        "categoryLabel": "🏨 ホテル",
+        "theme": "openings",
+        "themeLabel": "新規開業ホテル",
+        "highlight": false,
+        "headline": "「三井ガーデンホテル京都五条」、2027年3月20日開業",
+        "body": "三井不動産と三井不動産ホテルマネジメントは、「三井ガーデンホテル京都五条」を2027年3月20日に開業する。 建物は地下1階、地上9階建て。客室はスタンダードクイーン24室、スーペリアクイーン24室、スーペリアツイン94",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261106384622/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-d346644b",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "Bomb Hoaxes Test Europe’s Airlines as Geopolitical Pressures Mount",
+        "body": "None of this week’s threats has proved real, but each one still cost a diversion, a search and a rebuilt schedule. Whoever sent them, the hoaxes have added to a list of disruptions, from conflict-driven fuel costs to closed airspace, that is making routine flying in Europe ever more challenging.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/05/bomb-hoaxes-test-europes-airlines-as-geopolitical-pressures-mount/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-4ee8d819",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "🌐 海外OTA",
+        "categoryLabel": "🌐 海外OTA",
+        "theme": "overseas",
+        "themeLabel": "海外OTA",
+        "highlight": false,
+        "headline": "Airbnb-Backed Candidates Lose in LA, a Setback in Push to Loosen Rental Rules",
+        "body": "Airbnb’s money may not have bought it a friendlier mayor in Los Angeles. Expect the company to look for other ways to add Olympic supply.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/05/raman-la-mayor-impact-airbnb-olympics/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-02547040",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "🌐 海外OTA",
+        "categoryLabel": "🌐 海外OTA",
+        "theme": "overseas",
+        "themeLabel": "海外OTA",
+        "highlight": false,
+        "headline": "Airbnb Outpaces Rivals With Its Fastest Revenue Growth in 3 Years",
+        "body": "Airbnb is making its rivals look relatively sluggish. Is it affordability that's kickstarting demand across regions?",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/05/airbnb-outpaces-rivals-with-its-fastest-revenue-growth-in-3-years/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-87623031",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "Airbnb CEO: Our Specialized AI Agents Will Handle ‘Every Vertical in Travel’",
+        "body": "There's been speculation for years about whether Airbnb would launch flights. Such small-minded speculation: Airbnb intends to use specialized AI agents to do every travel vertical. Airbnb Cruise, anyone?",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/05/airbnb-ceo-our-specialized-ai-agents-will-handle-every-vertical-in-travel/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-085e02e2",
+        "date": "2026-11-06",
+        "dateLabel": "11/6（金）",
+        "weekday": "金",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "9月の航空貨物、全6地域で前年超え 北米は11.8％増＝IATA",
+        "body": "IATA（国際航空運送協会）がまとめた2026年9月の世界の航空貨物実績によると、航空貨物需要を示すCTK（貨物トンキロ）は前年同月比7.7％増となった。8月の4.4％増から伸び率が拡大し、全6地域で前年同月を上回った",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/353760",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-fe2095c4",
+        "date": "2026-11-05",
+        "dateLabel": "11/5（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "楽天トラベル、「JAL楽パック」で3日間限定セール開催",
+        "body": "楽天グループは、旅行予約サイト「楽天トラベル」で、日本航空（JAL）の航空券と宿泊がセットになった「JAL楽パック」で11月5日から7日までセールを実施する。 国内線全路線が対象となるものの、対象座席数には制限がある。旅",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261105386922/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-0dc14be3",
+        "date": "2026-11-05",
+        "dateLabel": "11/5（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "新千歳空港、国際線利用者の駐車料金を割引 札幌/千歳～バンクーバー線は無料、10月22日から",
+        "body": "北海道エアポートは、新千歳空港の国際線利用者向け駐車料金割引を10月22日から2027年3月31日まで実施する。 国際線直行便を往路か復路のいずれかで利用して海外へ渡航し、アンケートに回答した人が対象となる。対象駐車場は",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261105379892/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-be32f56f",
         "date": "2026-11-05",
         "dateLabel": "11/5（木）",
         "weekday": "木",
@@ -1298,38 +2003,38 @@
         "theme": "flights",
         "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "中国東方航空の元会長、1000万ドル（約15億8,400万円）超の収賄罪で懲役14年の実刑判決",
+        "headline": "ヒースロー空港のターミナル再編、なぜJAL・デルタ航空・フィンエアー・ラタム航空・中国南方航空の「5社だけ」が移転対象に選ばれたのか？",
         "body": "",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://sky-budget.com/2026/11/05/former-chairman-of-china-eastern-airlines-sentenced-to-14-years-in-prison-for-accepting-over-10-million-approx-1-584-billion-yen-in-bribes/",
+            "url": "https://sky-budget.com/2026/11/05/heathrow-airport-newsnov2026/",
             "label": "sky-budget.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-249cdd5f",
+        "id": "news-9f82378b",
         "date": "2026-11-05",
         "dateLabel": "11/5（木）",
         "weekday": "木",
         "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
+        "feedLabel": "トラシー",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "ルフトハンザ・グループ、TAPポルトガル航空の株式44.9%取得で正式合意 リスボンを「第7のハブ」としさらなる巨大航空グループへ",
-        "body": "",
+        "headline": "ネストホテルジャパン、「THE NEST ISHIGAKI」を11月1日リブランドオープン 同ブランド2軒目",
+        "body": "ネストホテルジャパンは、「THE NEST ISHIGAKI」を11月1日にリブランドオープンした。 旧沖縄かりゆしリゾートエグゼス石垣。建物は地上4階建て。コンセプトは「ちょうどいい、ホテル」で、「THE NEST」ブ",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://sky-budget.com/2026/11/05/lufthansa-group-reaches-formal-agreement-to-acquire-44-9-stake-in-tap-air-portugal/",
-            "label": "sky-budget.com"
+            "url": "https://www.traicy.com/posts/20261105386694/",
+            "label": "traicy.com"
           }
         ],
         "companies": false
@@ -1359,7 +2064,7 @@
         "companies": false
       },
       {
-        "id": "news-1b407d36",
+        "id": "news-3d5b5171",
         "date": "2026-11-05",
         "dateLabel": "11/5（木）",
         "weekday": "木",
@@ -1370,140 +2075,44 @@
         "theme": "flights",
         "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "エティハド航空、イボム・エアとインターライン提携 5都市へ接続",
-        "body": "エティハド航空とイボム・エアは、インターライン契約を締結した。 エティハド航空が2027年3月、アブダビ〜ラゴス・アクラ線を開設することに合わせたもの。イボム航空が運航する、アブジャ、ウヨ、ポートハーコート、カラバル、エ",
+        "headline": "ジェットスター・ジャパンの「真っ白」A321LR、11月6日就航 ブランド移行への準備塗装機",
+        "body": "ジェットスター・ジャパンは11月5日、エアバスA321LR型機の新仕様機（機体記号：JA29LR）を成田空港で報道公開した。同機は2027年7月に予定するリブランディングを見据え、機体全面を白く塗装した“移行準備機”で、",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.traicy.com/posts/20261105385293/",
+            "url": "https://www.traicy.com/posts/20261105386932/",
             "label": "traicy.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-a09f85db",
+        "id": "news-0ebc1473",
         "date": "2026-11-05",
         "dateLabel": "11/5（木）",
         "weekday": "木",
         "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
+        "feedLabel": "トラシー",
+        "category": "🏨 ホテル",
+        "categoryLabel": "🏨 ホテル",
+        "theme": "openings",
+        "themeLabel": "新規開業ホテル",
         "highlight": false,
-        "headline": "エア・ドゥ、メールアドレス最大67万3920件流出 予約・運航情報メール停止",
-        "body": "エア・ドゥ（ADO/HD）は11月4日、同社が利用する外部のメール配信システムが第三者による不正アクセスを受け、顧客のメールアドレスが最大67万3920件流出したと発表した。同システムを利用したメール配信を10月31日",
+        "headline": "「エスペリアホテル札幌」、2027年1月下旬開業",
+        "body": "サムティホールディングスは、「エスペリアホテル札幌」を2027年1月下旬に開業する。 建物は地上13階建て。客室はコネクティングルーム含むダブルとツイン計190室、トリプル4室、ハンディキャップルーム2室の全196室を設",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.aviationwire.jp/archives/353647",
-            "label": "aviationwire.jp"
+            "url": "https://www.traicy.com/posts/20261105378866/",
+            "label": "traicy.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-90723c9a",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "【月別取扱額8月】KNT-CTホールディングス 国内は横ばい、訪日は20％増",
-        "body": "KNT-CTホールディングスの8月の取扱額（グループ5社計）は、前年同月比4.8％増、2018年同月比39.1％減の295億65万円だった。国内は前年比で横ばい、海外も8％増にとどまったが、訪日は宿泊商品販売の回復など",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611050800kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-aef7686a",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "【11/19 無料オンラインセミナー】なぜ知床に「個性」が集まるのか。リブランディングと地域貢献活動から見るリゾート ホテルの採用戦略。 村上 晴花氏（北こぶしリゾート 経営戦略室（クマ活担当）マネージャー）",
-        "body": "【第63回】 2026年11月19日（木）13：00～14：00 講師：村上 晴花氏（北こぶしリゾート 経営戦略室（クマ活担当）マネージャー） 講演名：なぜ知床に「個性」が集まるのか。リブランディングと地域貢献活動から見",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2609171200kks-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-779ab7df",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "「コートを預けて身軽に旅へ」ベトナム航空、日本発の搭乗者に冬のアウターを最長15日間無料で預かるサービス",
-        "body": "ベトナム航空は11月1日、日本発の同社便を利用する客を対象に、冬のコートなどのアウターを空港で無料で預かる「コートストレージサービス」を開始した。成田、羽田、関西、中部の4空港で実施する。保管は最長15日間で、実施期間",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611051230kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-51a496bf",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "What the FTC Wants to Know About How Airlines Set Fares",
-        "body": "Airline pricing has come under more scrutiny in recent years after Delta disclosed it was using AI to price some fares and a lawsuit was filed against JetBlue, alleging that the company uses personal data to price airfares. The airline industry has said it uses no personal data to determine pricing.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/04/what-the-ftc-wants-to-know-about-how-airlines-set-fares/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-25653421",
+        "id": "news-6df27c13",
         "date": "2026-11-05",
         "dateLabel": "11/5（木）",
         "weekday": "木",
@@ -1514,38 +2123,38 @@
         "theme": "overseas",
         "themeLabel": "海外OTA",
         "highlight": false,
-        "headline": "Trip.com Group Builds a Bigger Travel Business Around Concerts",
-        "body": "The concert might be the reason to travel, but Trip.com Group wants to make sure it's not the only thing fans spend money on. Tickets and hotel rooms are just the opening act.",
+        "headline": "Minor Hotels Puts Its New Wellness Brand Inside a St. Regis It Owns",
+        "body": "Owning the building made this easy. Minor didn’t need anyone’s money to put its wellness brand inside a Marriott-run hotel. Getting an outside owner to pay for one, and agreeing with another brand on who keeps the client, will be harder.",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://skift.com/2026/11/04/trip-com-group-builds-a-bigger-travel-business-around-concerts/",
+            "url": "https://skift.com/2026/11/05/minor-hotels-puts-its-new-wellness-brand-inside-a-st-regis-it-owns/",
             "label": "skift.com"
           }
         ],
         "companies": true
       },
       {
-        "id": "news-bed97598",
+        "id": "news-27597494",
         "date": "2026-11-05",
         "dateLabel": "11/5（木）",
         "weekday": "木",
         "feed": "industry",
-        "feedLabel": "観光経済新聞",
+        "feedLabel": "スカイバジェット",
         "category": "✈️ 国際線",
         "categoryLabel": "✈️ 国際線",
         "theme": "flights",
         "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "JAL・豊田自動織機、羽田空港で「自動運転レベル4」のトーイングトラクター検証へ トンネル区間含む難所ルートに挑む",
-        "body": "日本航空(JAL)と豊田自動織機は10月30日、羽田空港における「自動運転レベル4(特定条件下での完全無人運転)」の運用拡大に向け、2026年11月より豊田自動織機製の自動運転トーイングトラクターを使用した検証を開始す",
+        "headline": "KLMオランダ航空CEO「KLMの将来は保証されたものではない」約5,000ポジション再編の構造改革を発表 A320neo導入を取りやめE195-E2へ切り替え",
+        "body": "",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611050830kks/",
-            "label": "kankokeizai.com"
+            "url": "https://sky-budget.com/2026/11/05/klm-royal-dutch-airlines-ceo-klms-future-is-not-guaranteed-announces-structural-reforms-involving-the-reorganization-of-approximately-5000-positions/",
+            "label": "sky-budget.com"
           }
         ],
         "companies": false
@@ -1575,55 +2184,7 @@
         "companies": false
       },
       {
-        "id": "news-62ecb751",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "HIS、矢田会長が代表取締役を退任へ、澤田社長の1名体制に 旅行会社の「事業承継M&Aプラットフォーム」で中間持株会社も設立",
-        "body": "エイチ・アイ・エス(HIS)は10月30日、取締役会で代表取締役の異動と役員人事、中間持株会社の設立を決議した。2027年1月27日付で代表取締役会長の矢田素史氏が同職を退任し、取締役に就く。代表取締役は代表取締役社長",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611051030kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-4d0d3609",
-        "date": "2026-11-05",
-        "dateLabel": "11/5（木）",
-        "weekday": "木",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "HIS、北九州都市圏域と観光連携協定「心躍る」を解き放つ 18市町の自然・食・歴史・文化・温泉を周遊・滞在へ",
-        "body": "HISは10月29日、北九州市と近隣17市町で形成する連携中枢都市圏「北九州都市圏域」と、観光振興および交流人口の拡大を目的とした連携協定を締結した。圏域の観光資源を組み合わせ、周遊・滞在につなげる取り組みを進める。広",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611050930kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-b1f11e85",
+        "id": "news-9472e233",
         "date": "2026-11-05",
         "dateLabel": "11/5（木）",
         "weekday": "木",
@@ -1634,301 +2195,13 @@
         "theme": "overseas",
         "themeLabel": "海外OTA",
         "highlight": false,
-        "headline": "Expedia Expects Attractive Deals From Meta’s Muse and Google’s AI Overviews",
-        "body": "Will Expedia's advertising on Meta's Muse and Google AI Overviews be the new Google Search? Ariane Gorin is hopeful, citing Expedia proven track record in these sorts of deals. On the other hand, in years' past Expedia officials complained about the high cost of Google marketing.",
+        "headline": "EU’s Sustainable Tourism Plan Aims to Spread Visitors Out — With No Funding or Targets",
+        "body": "The EU Sustainable Tourism Strategy sits on top of existing tourism strategies released by the economic bloc’s Commission. But it still falls short of presenting measurable targets that would actually support its implementation.",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://skift.com/2026/11/04/expedia-expects-attractive-deals-from-metas-muse-and-googles-ai-overviews/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-5e07cdaa",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "香港航空、20周年記念キャンペーンを11月30日まで開催 日本発着路線が最大20%オフ",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/04/hongkong-airlines-sale-nov2026/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-686c1fc2",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "ワンワールドのソウル・仁川国際空港ラウンジ、ワールド・トラベル・アワードで2年連続「アジア最優秀航空会社ラウンジ」に選出",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/04/oneworlds-lounge-at-seoul-incheon-international-airport-named-asias-leading-airline-lounge-at-the-world-travel-awards-for-the-second-consecutive-year/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-c51bbba2",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "デルタ航空CEO、ヒースロー空港の第4ターミナル移転決定に対し法的措置を示唆 同ターミナルにはJALも移転予定",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/04/delta-air-lines-ceo-hints-at-countermeasures-including-legal-action-against-heathrow-airport/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-e3866d64",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "セントレアで空を支える18社が集結 12月19日に「空港事業者合同企業説明会」を開催",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/04/joint-job-fair-for-airport-related-employers-to-be-held-at-centrair-on-december-19/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-d07c141d",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "スターラックス航空、関空－台北に夜便追加 期間増便27年1月から",
-        "body": "台湾のスターラックス航空（星宇航空、SJX/JX）は、関西－台北（桃園）線を期間増便する。2027年1月15日から3月27日まで、関空を夜に出発する週7往復（1日1往復）を追加する。既存便は週14往復（1日2往復）で、",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/353628",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-97e4208e",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "スターラックス航空、大阪/関西〜台北/桃園線で増便 2027年1月15日から1日3往復",
-        "body": "スターラックス航空は、大阪/関西〜台北/桃園線を2027年1月15日から増便する。 現在の1日2往復から1日3往復に増便する。増便となるのはJX825/826便で、機材はエアバスA330neo型機（ビジネスクラス28席・",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261104386766/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-a835bd8d",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "スターフライヤー、北九州～高雄線の国際チャーター便を2027年1～2月に運航 同社初の高雄就航",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/04/starflyer-to-operate-international-charter-flights-between-kitakyushu-and-kaohsiung-in-january-february-2027/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-13fe9b83",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "エミレーツ航空、ドバイ〜ダーバン線を期間増便 12月と1月に計14便",
-        "body": "エミレーツ航空は、ドバイ〜ダーバン線で期間増便を実施する。 運航日は12月17日から23日までと、2027年1月2日から8日までで、運航便数は計14便。機材は3クラス制のボーイング777型機を使用する。所要時間はドバイ発",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261104386355/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-f32f9892",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "エアプサン、韓国観光公社と提携し関西・松山・高松〜釜山線の往復5,000円割引クーポンを配布",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/04/air-busan-sale-12/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-90a9465b",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "Thailand’s 2032 Tourism Plan Chases Spending, Not Arrivals",
-        "body": "Thailand’s $118 billion goal targets spending rather than arrivals, which have stalled at about 33 million. Rising prices will surely lift revenue regardless, but higher rates aren’t the same as higher value, and the plan has no budget yet for the terminals, marinas and guides needed to attract bigger spenders.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/04/thailands-2032-tourism-plan-chases-spending-not-arrivals/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-d48dfbbf",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "Regional Visitors Keep Oman’s Arrivals Steady but Can’t Fill Its Hotels",
-        "body": "Oman’s arrivals have held up this year, but its hotels lost more than a tenth of their guests and revenue as Europeans stayed away. Regional travelers are still arriving but make shorter visits at lower rates.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/04/regional-visitors-keep-omans-arrivals-steady-but-cant-fill-its-hotels/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-191b4f54",
-        "date": "2026-11-04",
-        "dateLabel": "11/4（水）",
-        "weekday": "水",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "Booking.com Bets It Can Close the Trips That ChatGPT and Gemini Start",
-        "body": "AI may own the start of the trip, but Booking.com is betting trust and payments decide who gets the booking. Its experience with superapps, where daily use never became travel spending, suggests generative chatbots may face the same problem.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/03/booking-com-bets-it-can-close-the-trips-that-chatgpt-and-gemini-start/",
+            "url": "https://skift.com/2026/11/05/eus-sustainable-tourism-plan-aims-to-spread-visitors-out-with-no-funding-or-targets/",
             "label": "skift.com"
           }
         ],
