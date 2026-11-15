@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "window": {
     "start": "2026-11-01",
     "end": "2027-10-31"
   },
   "warnings": [],
   "events": {
-    "updated": "2026-11-14",
+    "updated": "2026-11-15",
     "note": "ドームの公演・試合と、日本および主な訪日市場の連休です。",
     "items": [
       {
@@ -1587,7 +1587,7 @@
     ]
   },
   "news": {
-    "updated": "2026-11-14",
+    "updated": "2026-11-15",
     "note": "旅行・航空・OTAの公開RSSです。手書きの実務メモはありません。",
     "filters": [
       {
@@ -1605,10 +1605,10 @@
     ],
     "items": [
       {
-        "id": "news-dd3d421f",
-        "date": "2026-11-14",
-        "dateLabel": "11/14（土）",
-        "weekday": "土",
+        "id": "news-f9e4fd6f",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
         "feed": "industry",
         "feedLabel": "観光経済新聞",
         "category": "旅行業界",
@@ -1622,8 +1622,224 @@
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611011800kks-2-2-2-2-2-2-2-2-2-2-2-2-2/",
+            "url": "https://www.kankokeizai.com/2611011800kks-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
             "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-345dbc52",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "日本旅行、仏PR会社と提携 日本各地の情報を世界のジャーナリストに発信",
+        "body": "日本旅行はこのほど、世界三大通信社の一つ、フランス通信社（AFP）の子会社「MediaConnect（メディアコネクト）」と戦略的アライアンスに関するMOU（覚書）を締結した。メディアコネクトが運営するグローバルPRプ",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611150730kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-17c8aecb",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "大阪観光大が無料ウェビナー開催 11月24日に「ウェルネス」テーマで",
+        "body": "大阪観光大学（大阪府熊取町）は11月24日、ウェルネス分野のインバウンドビジネスや富裕層観光、大学のリカレント教育をテーマにした無料ウェビナーを開催する。文部科学省の「産学連携リ・スキリング・エコシステム構築事業」に採",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611150630kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-11b93452",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "京成電鉄、スカイライナー座席予約システムに不正アクセス 最大約337万件が対象",
+        "body": "京成電鉄は、スカイライナー座席予約システムが第三者による不正アクセスを受けたと発表した。 不正アクセスは、11月11日深夜に発生した。スカイライナーチケットレスサービスの利用者情報が取得された可能性があり、対象は最大約3",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261115388051/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-49704569",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "リヤド航空、導入予定のA321neo型機の初号機を初公開",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/15/riyadh-air-unveils-the-first-of-its-planned-a321neo-aircraft/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-a8dfd3f0",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "サン・フーコック航空、2027年第1四半期に東京/成田〜ホーチミン線を開設へ その後はフーコック・ダナン線を開設",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/15/sun-phu-quoc-airlines-to-launch-tokyo-narita-ho-chi-minh-city-route-in-q1-2027/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-3dc35b44",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "はとバス 運営ホテルに「モッテコ」導入 食品ロス削減の取り組み開始",
+        "body": "食べきれない食事の持ち帰り容器提供 はとバス（武市玲子社長）は10月19日から、同社が経営する「銀座キャピタルホテル萌木」のレストラン「MoeGiKURiYA」で、食品ロス削減に向けた取り組みを開始した。銀座キャピタル",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611150800kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-8d7fd12c",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "【体験型観光が日本を変える465】今こそ観光の沈滞ムード打破を 藤澤安良",
+        "body": "個人情報漏れのお詫びを報じる報道が相次いでいる。今年の1～10月で、国内の情報漏えい件数は約3億2900万件と報道された。昨年の10倍を超えたとのこと。クレジットカード番号や暗証番号、中には家族構成まで露出したケースも",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611151100kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-9892b50e",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "【12/3 無料オンラインセミナー】「わが国おける ホテル・旅館の実情」 徳江順一郎氏（東洋大学国際観光学部 准教授）",
+        "body": "【第64回】 2026年12月3日（木）13：00～14：00 講師：徳江順一郎氏（東洋大学国際観光学部 准教授） 講演名：「わが国おける ホテル・旅館の実情」 【セミナーの概要】 日本が誇る「おもてなし」というが、実際",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2610061430kks-2-2-2-2-2-2-2-2-2-2-2/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-3fe8dd32",
+        "date": "2026-11-15",
+        "dateLabel": "11/15（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ANA、航空機客席シートカバー生地の限定バッグやジャケット発売",
+        "body": "全日本空輸（ANA）は、「2ND RUNWAY（セカンドランウェイ） PROJECT」の第1弾を11月5日正午から販売している。 航空機の廃材や客席シートカバー用に作られた未使用生地をファッションやインテリア向けの商品に",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261115387220/",
+            "label": "traicy.com"
           }
         ],
         "companies": false
@@ -1677,31 +1893,7 @@
         "companies": false
       },
       {
-        "id": "news-8e41d63c",
-        "date": "2026-11-14",
-        "dateLabel": "11/14（土）",
-        "weekday": "土",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "公式マスコット「トゥンクトゥンク」が大空へ JALの特別塗装機が11月7日就航、初便は羽田―岡山",
-        "body": "GREEN×EXPO 2027の公式マスコットキャラクター「トゥンクトゥンク」をあしらった日本航空(JAL)の特別塗装機「JAL トゥンクトゥンクJET」が、11月7日(土)から就航した。機材はボーイング737-800",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611141130kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-2ad9c67f",
+        "id": "news-d7023acb",
         "date": "2026-11-14",
         "dateLabel": "11/14（土）",
         "weekday": "土",
@@ -1712,13 +1904,61 @@
         "theme": "openings",
         "themeLabel": "新規開業ホテル",
         "highlight": false,
-        "headline": "三越伊勢丹ホールディングス、ホテル開発へ 2032年開業",
-        "body": "三越伊勢丹ホールディングスは、ホテル事業に進出する。 自社が完全もしくは部分的に保有する不動産が多い、新宿5丁目エリアの自社オフィス5棟を一体開発する。花園神社の正面、明治通り沿いに位置する。 ビルとして売却することが困",
+        "headline": "成田空港T2に「KUAʻAINA’s Smashed Burger」、11月20日開業",
+        "body": "成田国際空港は、「KUAʻAINA's Smashed Burger」を11月20日に開業する。 KUAʻAINAが手がける新ブランドの常設店として全国初出店となる。鉄板に押しつけて焼くスマッシュバーガーのほか、パンケー",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.traicy.com/posts/20261114387903/",
+            "url": "https://www.traicy.com/posts/20261114387093/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-11c4c596",
+        "date": "2026-11-14",
+        "dateLabel": "11/14（土）",
+        "weekday": "土",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "中部国際空港、一般駐車場の一部料金を改定 12月1日から",
+        "body": "中部国際空港は、一般駐車場の駐車料金と予約料金を12月1日から改定する。 P4駐車場では、6日目以降の長期料金の値下げを行う。現行では入庫から6日目以降は1日あたり1,000円となっているが、改定後は1日あたり500円と",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261114381161/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-2c63a77f",
+        "date": "2026-11-14",
+        "dateLabel": "11/14（土）",
+        "weekday": "土",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "マレーシア航空、福岡〜クアラルンプール線を期間減便 2027年4月14日〜8月31日、週5往復",
+        "body": "マレーシア航空は、福岡〜クアラルンプール線を期間減便する。 現在は週5往復を運航しており、12月1日から1日1往復に増便することを発表していた。 2027年4月14日から8月31日まで、福岡発が月・火・木・土・日曜、クア",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261114386035/",
             "label": "traicy.com"
           }
         ],
@@ -1749,25 +1989,25 @@
         "companies": false
       },
       {
-        "id": "news-ea473894",
+        "id": "news-6c72531a",
         "date": "2026-11-14",
         "dateLabel": "11/14（土）",
         "weekday": "土",
         "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "トルコの観光収入、1~9月は513億米ドルで過去最高 第3四半期も255億米ドルと最高を更新",
-        "body": "トルコ共和国文化観光省は11月5日、2026年第3四半期および1～9月の観光実績を発表した。1～9月の観光収入は前年同期比2.4%増の513億米ドルで、9ヵ月間の実績として過去最高を記録した。第3四半期の観光収入も前年",
+        "headline": "ターキッシュ・エアラインズ、北野武氏を起用した新ブランドキャンペーンを展開",
+        "body": "ターキッシュ・エアラインズは、日本市場で北野武氏を起用した新ブランドキャンペーンを開始する。 キャンペーンのコンセプトは、「直接翻訳できないような深い体験や感情も、トルコならではの場所や文化、ホスピタリティを通じてこそ真",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611140930kks/",
-            "label": "kankokeizai.com"
+            "url": "https://www.traicy.com/posts/20261114387935/",
+            "label": "traicy.com"
           }
         ],
         "companies": false
@@ -1791,6 +2031,30 @@
         "sources": [
           {
             "url": "https://sky-budget.com/2026/11/14/turkish-airlines-chairman-we-are-focusing-first-on-the-tokyo-and-osaka-routes-as-our-fleet-expands-we-will-also-consider-sapporo-and-nagoya/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-523592b9",
+        "date": "2026-11-14",
+        "dateLabel": "11/14（土）",
+        "weekday": "土",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ターキッシュ エアラインズ、導入検討の777Xは「今発注しても受領は最短で2036年」",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/14/turkish-airlines-chairman-even-if-we-ordered-the-777x-now-the-earliest-delivery-would-be-in-2036/",
             "label": "sky-budget.com"
           }
         ],
@@ -1845,7 +2109,7 @@
         "companies": false
       },
       {
-        "id": "news-d6c980dd",
+        "id": "news-03e4345f",
         "date": "2026-11-14",
         "dateLabel": "11/14（土）",
         "weekday": "土",
@@ -1856,38 +2120,38 @@
         "theme": "domestic",
         "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "【逆境をチャンスにー旅館の再生プラン 823】 観光地経営と宿の役割（3） 青木康弘",
-        "body": "前回コラムでは、人材の確保を地域ぐるみで進めると国の補助金が受けやすくなることを述べた。今回コラムでは、採用と同じく1軒の宿だけでは解決しにくい課題として、宿の送迎の負担と滞在中の宿泊客の移動手段を取り上げたい。 送",
+        "headline": "ザ・キャピトルホテル 東急、「Champagne Glow」を掲げ12月1日からクリスマス限定メニュー 苺とピスタチオのパフェ、トリュフ香る国産牛フィレ肉のディナー",
+        "body": "ザ・キャピトルホテル 東急(東京都千代田区永田町、総支配人:志村恒治)は11月5日、2026年のフェスティブシーズンに向けた館内レストラン・バーのクリスマス限定メニューを発表した。提供は12月1日から始まる。 テーマ",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611141100kks/",
+            "url": "https://www.kankokeizai.com/2611142000kks/",
             "label": "kankokeizai.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-2dff78fa",
+        "id": "news-2505b6cc",
         "date": "2026-11-14",
         "dateLabel": "11/14（土）",
         "weekday": "土",
         "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "【11/19 無料オンラインセミナー】なぜ知床に「個性」が集まるのか。リブランディングと地域貢献活動から見るリゾート ホテルの採用戦略。 村上 晴花氏（北こぶしリゾート 経営戦略室（クマ活担当）マネージャー）",
-        "body": "【第63回】 2026年11月19日（木）13：00～14：00 講師：村上 晴花氏（北こぶしリゾート 経営戦略室（クマ活担当）マネージャー） 講演名：なぜ知床に「個性」が集まるのか。リブランディングと地域貢献活動から見",
+        "headline": "A380定期便計画の英グローバル・エアラインズ、裁判所が強制清算命令",
+        "body": "総2階建ての超大型機エアバスA380型機による大西洋横断路線への就航を目指していた英国のグローバル・エアラインズ（Global Airlines）に対し、英高等法院は強制清算命令を出した。英国の官報「The Gazet",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2609171200kks-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2/",
-            "label": "kankokeizai.com"
+            "url": "https://www.aviationwire.jp/archives/354502",
+            "label": "aviationwire.jp"
           }
         ],
         "companies": false
@@ -1941,102 +2205,6 @@
         "companies": false
       },
       {
-        "id": "news-08d4ee2b",
-        "date": "2026-11-13",
-        "dateLabel": "11/13（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "韓国国土交通部、大韓航空傘下のLCC3社の統合を認可",
-        "body": "韓国国土交通部は、大韓航空傘下の格安航空会社（LCC）3社の合併を認可した。 ジンエアーとエアソウル、エアプサンの3社は、2027年3月17日に合併する。存続会社はジンエアーとなる。 ジンエアーは大韓航空、エアソウルとエ",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261113387834/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-c245874b",
-        "date": "2026-11-13",
-        "dateLabel": "11/13（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "日本空港ビル、株式を3分割 27年4月実施",
-        "body": "羽田空港の旅客ターミナルを運営する日本空港ビルデング（9706）は、普通株式1株を3株に分割する。2027年3月31日を基準日とし、4月1日に効力が生じる。投資単位の金額を引き下げ、投資家層の拡大や株式の流動性向上を図",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/354454",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-7ecafc3a",
-        "date": "2026-11-13",
-        "dateLabel": "11/13（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "日本空港ビル、免税好調で通期予想引き上げ 26年4-9月期は純利益142億円",
-        "body": "羽田空港のターミナルを運営する日本空港ビルデング（9706）の2026年4-9月期（27年3月期第2四半期）連結決算（日本基準）は、純利益が前年同期比5.9％増の141億9500万円だった。旅客数の増加や円安を背景とし",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/354458",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-ed85a6fd",
-        "date": "2026-11-13",
-        "dateLabel": "11/13（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "中古A380で大西洋路線に挑んだグローバル航空、「空の旅の黄金時代を取り戻せず」清算へ",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/13/global-airlines-which-sought-to-challenge-the-transatlantic-market-with-the-a380-heads-toward-liquidation/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
         "id": "news-288cdcd2",
         "date": "2026-11-13",
         "dateLabel": "11/13（金）",
@@ -2056,78 +2224,6 @@
           {
             "url": "https://sky-budget.com/2026/11/13/turkish-airlines-to-introduce-premium-economy-on-a350-1000s-in-q4-2028-plans-to-offer-it-on-japan-routes-and-expresses-interest-in-ordering-the-777x/",
             "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-15466c24",
-        "date": "2026-11-13",
-        "dateLabel": "11/13（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "セント レジス ホテル 大阪、客室リニューアル完了",
-        "body": "セント レジス ホテル 大阪は、全160室のゲストルームとスイートのリニューアルを11月2日に完了した。 「水の都・大阪の時間と記憶」をデザインコンセプトとし、西陣織のヘッドボードやカーペットで丘陵と水脈を表現した。スイ",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261113387855/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-71011b34",
-        "date": "2026-11-13",
-        "dateLabel": "11/13（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "スカンジナビア航空、東京/羽田〜コペンハーゲン線を増便 2027年5月14日から1日1往復",
-        "body": "スカンジナビア航空は、東京/羽田〜コペンハーゲン線を2027年5月14日から増便する。 現在は東京/羽田発土曜、コペンハーゲン発金曜を除く週6往復を運航しており、これを1日1往復に増便する。機材はエアバスA350-900",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261113387878/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-fff95a3d",
-        "date": "2026-11-13",
-        "dateLabel": "11/13（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "グリーンズ、ホテル3軒を閉店へ 富山・金沢・燕三条",
-        "body": "グリーンズは、運営するホテル3軒を閉店すると発表した。同日開催の取締役会で決議した。 コンフォートホテル富山駅前は、2027年3月23日のチェックアウト後に閉店する。建物賃貸借契約の解約に合意したため。客室数は150室。",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261113387887/",
-            "label": "traicy.com"
           }
         ],
         "companies": false
@@ -2224,30 +2320,6 @@
           {
             "url": "https://skift.com/2026/11/13/new-webinar-turning-travel-disruptions-into-guest-loyalty/",
             "label": "skift.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-07b717c3",
-        "date": "2026-11-13",
-        "dateLabel": "11/13（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "JALUX、天草エアラインと「御翔印 天草空港」11月16日発売",
-        "body": "JALUXは、「御翔印 天草空港」を11月16日に発売する。 日本航空（JAL）と天草エアラインがコードシェア運航を行っていることから、天草空港のオリジナルデザインとして企画した。就航10周年の機体「みぞか号」が滑走路か",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261113387785/",
-            "label": "traicy.com"
           }
         ],
         "companies": false
