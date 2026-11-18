@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "window": {
     "start": "2026-11-01",
     "end": "2027-10-31"
   },
   "warnings": [],
   "events": {
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "note": "ドームの公演・試合と、日本および主な訪日市場の連休です。",
     "items": [
       {
@@ -1602,7 +1602,7 @@
     ]
   },
   "news": {
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "note": "旅行・航空・OTAの公開RSSです。手書きの実務メモはありません。",
     "filters": [
       {
@@ -1620,10 +1620,10 @@
     ],
     "items": [
       {
-        "id": "news-81c1ff35",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
+        "id": "news-e4088af4",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
         "feed": "industry",
         "feedLabel": "観光経済新聞",
         "category": "旅行業界",
@@ -1631,20 +1631,596 @@
         "theme": "domestic",
         "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "第3回東急ホテルズカクテルコンペ、優勝はセルリアンタワー東急ホテルの吉田氏",
-        "body": "東急ホテルズ＆リゾーツは11月4日、バーテンダーのスキル向上を目的とした「第3回東急ホテルズ カクテルコンペティション」の決勝大会をＢＥＬＬＵＳＴＡＲ ＴＯＫＹＯ（47） Ａ Ｐａｎ Ｐａｃｉｆｉｃ Ｈｏｔｅｌ（ベルス",
+        "headline": "観光の豊かさを、住民の暮らしへ 観光の成長と暮らしの実感 東海大学観光学部教授 崔載弦（チェジェヒョン）",
+        "body": "2026年10月、フランスで続くデモの報道に接し、ふと「観光」とは何かを改めて考えた。前年9月には緊縮財政案に対する抗議行動が起き、教員、鉄道職員、医療従事者、高校生らが街頭に立った。公共サービスや年金の維持を求める訴",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611171300kks-2/",
+            "url": "https://www.kankokeizai.com/2611180930kks/",
             "label": "kankokeizai.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-f7b9b026",
+        "id": "news-0e0092f1",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "羽田空港で「アメリカ横断ウルトラクイズ」コラボイベントが11月20日開催 名物の「機内ペーパーテスト」や「ブーブーゲート」を再現",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/18/a-collaboration-event-for-trans-american-ultra-quiz-will-be-held-at-haneda-airport-on-november-20/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-7517dbb8",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "日本とキプロス、航空当局間の枠組みを締結",
+        "body": "日本とキプロスは、航空当局間の枠組みを締結した。カナダ・モントリールで、11月16日に署名式が行われた。 日本とキプロス双方の航空会社が、国際線区間で第三国を含む全ての航空会社との共同運航（コードシェア）、国際線区間と接",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261118388374/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-e4c9d210",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "日本とアルゼンチン、航空当局間の枠組みを締結",
+        "body": "日本とアルゼンチンは、航空当局間の枠組みを締結した。カナダ・モントリールで、11月16日に署名式が行われた。 日本とアルゼンチン双方の航空会社が、両国間の旅客・貨物定期便で羽田空港以外の日本の空港とアルゼンチンの空港への",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261118388370/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-0c7051f3",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "成田線やHISチャーター便にも投入された旧ジェット・アジア・エアウェイズの767-300ER、パキスタンで約9年放置の末に40万ドル超で競売落札",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/18/hs-jas%e3%80%80news/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-d7969c3c",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "成田空港「地球の歩き方」予約開始 空港の裏側や周辺11市町も",
+        "body": "成田空港を運営する成田国際空港会社（NAA）、SNSコンサルのgaaboo（ガーブー）、地球の歩き方の3社は11月18日、ガイドブック『地球の歩き方 成田空港とエアポートシティ』の予約販売を始め、表紙デザインを初公開し",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/354770",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-10e8e6fb",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "大阪観光局、9月は中国人客が45％減少 累計外客数も63％減",
+        "body": "大阪観光局によると、9月の府内への来訪外客数は、韓国や台湾、シンガポール、インド、ロシアが9月としては過去最高だったものの、トータルでは前年同月比5.0％減の132万3千人となった。溝畑宏理事長は「8月は対前年90.4",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611180800kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-dfa2346d",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "🏨 ホテル",
+        "categoryLabel": "🏨 ホテル",
+        "theme": "openings",
+        "themeLabel": "新規開業ホテル",
+        "highlight": false,
+        "headline": "京都市内に初のマリオット開業、全214室 ＨＭＩ",
+        "body": "ホテルマネージメントインターナショナル（ＨＭＩ）は11月1日、「京都マリオットホテル」をリブランドオープンした。既存の「ホテル平安の森京都」を改装、リブランドした。 同社は2024年4月、マリオット・インターナショナ",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611181300kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-66276514",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ルフトハンザドイツ航空、短・中距離路線に「プレミアム・ビジネス・シート」を試験導入 A320ceo改修機を12月より順次投入し予約受付を開始",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/18/lufthansa-introduces-premium-business-seats-on-short-and-medium-haul-routes/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-ac4a3575",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ミドル・イースト航空、A321XLR受領 世界初発注から7年",
+        "body": "エアバスは現地時間11月17日、レバノンのミドル・イースト航空（MEA/ME）へA321XLRの同社向け初号機（登録記号OD-XLR）を引き渡したと発表した。発注済みの5機のうち最初の1機で、同日午後にベイルートへ到着",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/354782",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-9117558a",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ミドル・イースト航空、A321XLRの初号機を受領",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/18/middle-east-airlines-takes-delivery-of-its-first-a321xlr/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-6263b095",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ハイアットとデルタ航空、会員プログラムの提携を開始 アカウント連携で相互にポイント付与",
+        "body": "デルタ航空とハイアット・ホテルズは、ロイヤリティプログラムのワールド オブ ハイアットとスカイマイルの提携を開始した。 アカウントを連携した両社の上級会員は、対象のデルタ航空便の利用とハイアットホテルの滞在の両方でポイン",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261118388390/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-40bf5d06",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "🌐 海外OTA",
+        "categoryLabel": "🌐 海外OTA",
+        "theme": "overseas",
+        "themeLabel": "海外OTA",
+        "highlight": false,
+        "headline": "インバウンド集客講座、11月30日に山形で開催 JR東日本×KKday、参加費無料",
+        "body": "JR東日本とKKdayは11月30日（火）、山形市のヤマコーホール（山交ビル７階）で「ゼロから始めるインバウンド集客講座」を開催する。 対象は山形県内で観光業に携わる観光施設・体験事業者など。定員は30名、参加費は無",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2610021500kks-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-e349a673",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "【1/28 無料オンラインセミナー】投資物件を通じた 観光地活性の可能性～当ファンド事例を通じて～ 檜垣克己氏（地域創生ソリューション株式会社 代表取締役社長）",
+        "body": "【第65回】 2027年1月28日（木）13：00～14：00 講師：檜垣克己氏（地域創生ソリューション株式会社 代表取締役社長） 講演名：投資物件を通じた 観光地活性の可能性～当ファンド事例を通じて～ 【セミナーの概要",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2610071430kks-2-2-2-2-2-2-2-3-2-2/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-0febcff2",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "『地球の歩き方 成田空港とエアポートシティ』予約販売がスタート",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/18/pre-orders-now-open-for-chikyu-no-arukikata-narita-airport-airport-city/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-208a4d63",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "「ニューヨークへ行きたいか！」羽田空港でウルトラクイズ体験 11/20から",
+        "body": "羽田空港のターミナルを運営する日本空港ビルデング（9706）は11月17日、テレビ番組「アメリカ横断ウルトラクイズ」の名物企画を体験できるイベントを、20日から29日まで第1・第2ターミナルで開催すると発表した。機内ペ",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/354759",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-5a662cf1",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "「2028年第1四半期にイスタンブール発オーストラリア直行便」 ターキッシュ エアラインズ会長、日本市場の供給増と全機材へのプレミアムエコノミー導入を表明",
+        "body": "ターキッシュエアラインズは14日、映画監督・俳優の北野武氏と製作した新CMの放映を全国で開始した。13日に行ったCM発表会で来日したターキッシュ エアラインズ取締役会長兼執行委員長のムラット・シェケル教授に話を伺った。",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611181230kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-d2d9494a",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "The Multi-Billion-Dollar Loyalty Mirage: Why We Still Don’t Know What Airline Cards Really Earn",
+        "body": "United CEO Scott Kirby says investors overestimate airline credit-card profits, but filings from United, Delta, and American show substantial loyalty-program cash flows without establishing what the bank deals actually earn.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/17/the-multi-billion-dollar-loyalty-mirage-why-we-still-dont-know-what-airline-cards-really-earn/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-57226723",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "Skift Aviation Forum 2026: Airlines Contend with Costs, Double Down on What Works",
+        "body": "Disruptions to the longstanding status quo across product, technology, loyalty, and operations are fragmenting customer engagement and putting pressure on airlines and other aviation companies to make decisions today that will impact the next 10 years.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/17/skift-aviation-forum-2026-airlines-contend-with-costs-double-down-on-what-works/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-a5318a43",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "🌐 海外OTA",
+        "categoryLabel": "🌐 海外OTA",
+        "theme": "overseas",
+        "themeLabel": "海外OTA",
+        "highlight": false,
+        "headline": "Kayak Adds 28 AI Features, Letting Travelers Ask for the Cheapest Dates to Fly",
+        "body": "Booking’s metasearch company is betting that live prices and comparison tools, not just conversations, will keep travelers from starting their search on Google or a chatbot.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/17/kayak-adds-28-ai-features-letting-travelers-ask-for-the-cheapest-dates-to-fly/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-4baa23af",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "Booking Holdings’ AI Agent Vayo Can Now Reserve Flights and Hotels",
+        "body": "Booking Holdings’ newest AI agent can now transact to book hotels, flights, and other trip arrangements. But Vayo's ability to complete reservations depends on supplier sites.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/17/booking-holdings-ai-agent-vayo-can-now-reserve-flights-and-hotels/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-8f005598",
+        "date": "2026-11-18",
+        "dateLabel": "11/18（水）",
+        "weekday": "水",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "Airlines Race to Keep Up With Vietnam’s Indian Travel Boom",
+        "body": "Indian arrivals to Vietnam are growing more than twice as fast as the overall market, and Vietnamese carriers are chasing that demand into cities like Ahmedabad. Seats alone won’t lock it in, though. Vietnam still needs the food, guides, and wedding and events products Indian travelers expect.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/17/airlines-race-to-keep-up-with-vietnams-indian-travel-boom/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-3ee1aeb1",
+        "date": "2026-11-17",
+        "dateLabel": "11/17（火）",
+        "weekday": "火",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "静岡空港、国際線保安サービス料導入 2/1発券分、大人・子供590円",
+        "body": "静岡空港を運営する富士山静岡空港会社は、旅客保安サービス料（PSSC）の徴収を始める。国際線の出発客を対象に、2027年2月1日発券分から徴収する。 対象は満12歳以上の大人と、満2歳以上12歳未満の子供で、料金は大",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/354719",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-e3702163",
+        "date": "2026-11-17",
+        "dateLabel": "11/17（火）",
+        "weekday": "火",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "日本－キプロス、第三国含むコードシェア可能に 航空当局間で枠組み",
+        "body": "国土交通省航空局（JCAB）は11月17日、日本とキプロスの航空当局間で、両国の航空会社によるコードシェア（共同運航）を可能にする枠組みを締結したと発表した。国際線では第三国を含むすべての航空会社とのコードシェアを可能",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/354733",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-93341105",
+        "date": "2026-11-17",
+        "dateLabel": "11/17（火）",
+        "weekday": "火",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "日本－アルゼンチン、羽田除き定期便就航可に 航空当局間で枠組み",
+        "body": "国土交通省航空局（JCAB）は11月17日、日本とアルゼンチンの航空会社が両国間で旅客・貨物定期便を実際に運航できる航空当局間の枠組みを締結したと発表した。日本側は羽田空港を除く国内の空港、アルゼンチン側は同国内の空港",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/354721",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-8dc43baf",
         "date": "2026-11-17",
         "dateLabel": "11/17（火）",
         "weekday": "火",
@@ -1655,110 +2231,86 @@
         "theme": "flights",
         "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "桃園国際空港、7年間放置されていた旧遠東航空のMD-83型機を約1,000万円で引き取り 今後解体し駐機場を空ける方針",
+        "headline": "日本、アルゼンチンおよびキプロスと航空当局間枠組みを締結",
         "body": "",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://sky-budget.com/2026/11/17/taoyuan-international-airport-acquires-a-former-far-eastern-air-transport-md-83-aircraft-left-abandoned-for-seven-years-for-approximately-10-million-yen/",
+            "url": "https://sky-budget.com/2026/11/17/japan-concludes-aviation-frameworks-with-argentina-and-cyprus-paving-the-way-for-expanded-direct-operations-and-code-sharing/",
             "label": "sky-budget.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-e29221b2",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "北海道観光機構、25年の観光総消費額は1.3％増 外国人客に伸び",
-        "body": "北海道観光機構は2025年度観光総消費額をまとめ、前年比1.3％増の1兆5222億円となった。来訪者数は道内・道外客ともに前年度比で減ったものの、外国人客は48万人増加し、消費額ベースでも全体の35％を占めた。 観光",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611170900kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-105f9477",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "フィリピン航空、787-10正式発注 19年ぶりボーイング機",
-        "body": "ボーイングは現地時間11月15日、フィリピン航空（PAL/PR）が787-10型機を15機正式発注したと発表した。5機分のオプション（追加購入権）も設定した。今年7月に英国で開催されたファンボロー航空ショーで表明した発",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/354703",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-b8cc3d08",
+        "id": "news-e2ccd523",
         "date": "2026-11-17",
         "dateLabel": "11/17（火）",
         "weekday": "火",
         "feed": "industry",
         "feedLabel": "トラシー",
-        "category": "🏨 ホテル",
-        "categoryLabel": "🏨 ホテル",
-        "theme": "openings",
-        "themeLabel": "新規開業ホテル",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "トラベロッジホテルズアジア、「トラベロッジ江南駅三」 10月15日に開業",
-        "body": "トラベロッジホテルズアジアは、「トラベロッジ江南駅三」を10月15日に開業した。 客室はクイーンルーム、ツインルーム、トリプルルームなど全5タイプ、360室を設ける。全客室に無料Wi-Fiやテレビを備える。 館内には、コ",
+        "headline": "富士山静岡空港、旅客保安サービス料を導入 2027年2月1日から",
+        "body": "富士山静岡空港は、旅客保安サービス料（PSSC）を2027年2月1日搭乗分から導入する。 国際線の出発利用者を対象に、大人・小人ともに590円を徴収する。いずれも航空券発券時に、運賃とともに支払う必要がある。同日以降の発",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.traicy.com/posts/20261117387448/",
+            "url": "https://www.traicy.com/posts/20261117388325/",
             "label": "traicy.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-7a2f99b1",
+        "id": "news-de27f6db",
         "date": "2026-11-17",
         "dateLabel": "11/17（火）",
         "weekday": "火",
         "feed": "industry",
-        "feedLabel": "Aviation Wire",
+        "feedLabel": "スカイバジェット",
         "category": "✈️ 国際線",
         "categoryLabel": "✈️ 国際線",
         "theme": "flights",
         "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "スプリング・ジャパン、新塗装機が国内線就航 函館へ初便",
-        "body": "日本航空（JAL/JL、9201）傘下のLCC、スプリング・ジャパン（旧春秋航空日本、SJO/IJ）は11月17日、新塗装を施したボーイング737-800型機（登録記号JA05GR）を国内線に初投入した。成田発函館行き",
+        "headline": "国際線利用者に「SAF負担金」 国交省が2030年度導入へ制度設計 成田・羽田など主要7空港の国際線を対象とし2035年度には国内線拡大も検討",
+        "body": "",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.aviationwire.jp/archives/354675",
-            "label": "aviationwire.jp"
+            "url": "https://sky-budget.com/2026/11/17/ministry-of-land-infrastructure-transport-and-tourism-to-design-a-saf-surcharge-for-international-air-travelers-aiming-for-implementation-by-fiscal-year-2030/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-a8b2422b",
+        "date": "2026-11-17",
+        "dateLabel": "11/17（火）",
+        "weekday": "火",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "フィリピン航空、ボーイング787-10型機15機を確定発注",
+        "body": "フィリピン航空は、ボーイング787-10型機15機を確定発注した。 7月にイギリス・ロンドン郊外で開催されたファンボロー・エアショーで、発注意向を発表していた。さらに5機の購入権も有している。受領は2030年代を予定して",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261117388319/",
+            "label": "traicy.com"
           }
         ],
         "companies": false
@@ -1812,298 +2364,34 @@
         "companies": false
       },
       {
-        "id": "news-9ed4badc",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "サウディア、本日11月17日に就航予定であった東京/成田〜リヤド線の就航を延期",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/17/saudia-has-postponed-the-launch-of-its-narita-riyadh-route-which-was-scheduled-to-begin-today-the-new-launch-date-is-set-for-january-16-2027/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-e30102d3",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "キャセイパシフィック航空、最大15%割引の「ブラックフライデーセール」を開催中",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/17/cathay-pacific-sale-nov2026/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-1a49230a",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "インバウンド集客講座、11月30日に山形で開催 JR東日本×KKday、参加費無料",
-        "body": "JR東日本とKKdayは11月30日（火）、山形市のヤマコーホール（山交ビル７階）で「ゼロから始めるインバウンド集客講座」を開催する。 対象は山形県内で観光業に携わる観光施設・体験事業者など。定員は30名、参加費は無",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2610021500kks-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-43bd4db6",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "【私の視点 観光羅針盤 546】持続可能な観光地への期待 石森秀三",
-        "body": "トランプ大統領は中間選挙で共和党が惨敗を喫して苦境に陥っている。トランプ政権はさまざまな難儀を世界にもたらしたが、観光との関係では国際協調主義の否定が災難だ。例えば、国連のＳＤＧｓ（持続可能な開発目標）に対して明確な拒",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611171300kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-91b04d16",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "【地域創生と観光ビジネス112】これが完成形！都事業「沖縄やんばるネイチャー体験」を実施 千葉千枝子",
-        "body": "3カ年事業で採択された東京都「大学等と連携した観光経営人材育成講座」は、今年が淑徳大学としては最終年で大詰めを迎えた。”自然資源を活かした”と冠がつく本講座は、座学のみならず実践型のフィールドワークを導入して、初年度は",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611171400kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-79ab85b1",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "【12/3 無料オンラインセミナー】「わが国おける ホテル・旅館の実情」 徳江順一郎氏（東洋大学国際観光学部 准教授）",
-        "body": "【第64回】 2026年12月3日（木）13：00～14：00 講師：徳江順一郎氏（東洋大学国際観光学部 准教授） 講演名：「わが国おける ホテル・旅館の実情」 【セミナーの概要】 日本が誇る「おもてなし」というが、実際",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2610061430kks-2-2-2-2-2-2-2-2-2-2-2-2/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-93a37573",
+        "id": "news-a7c524f2",
         "date": "2026-11-17",
         "dateLabel": "11/17（火）",
         "weekday": "火",
         "feed": "industry",
         "feedLabel": "トラシー",
-        "category": "🏨 ホテル",
-        "categoryLabel": "🏨 ホテル",
-        "theme": "openings",
-        "themeLabel": "新規開業ホテル",
+        "category": "🌐 海外OTA",
+        "categoryLabel": "🌐 海外OTA",
+        "theme": "overseas",
+        "themeLabel": "海外OTA",
         "highlight": false,
-        "headline": "「BASE LAYER HOTEL ROPPONGI」、12月28日開業",
-        "body": "GREENINGは、FHG HOTELSとともに、「BASE LAYER HOTEL ROPPONGI」を12月28日に開業する。 客室はダブル50室、1名利用のダブル3室、4名で利用可能なコンフォートツイン3室、キング",
+        "headline": "じゃらんnet、「じゃらんクーポンフェス」開催 クーポン追加配布開始",
+        "body": "リクルートは、旅行予約サイト「じゃらんnet」で開催中の「じゃらんクーポンフェス」で、クーポンの追加配布を11月17日午前10時から開始した。 対象の宿泊施設で20,000円、5,000円、3,000円、2,000円、1",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.traicy.com/posts/20261117379061/",
+            "url": "https://www.traicy.com/posts/20261117388337/",
             "label": "traicy.com"
           }
         ],
-        "companies": false
-      },
-      {
-        "id": "news-7e2bff8e",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "United Airlines Resolves Tech Issue That Caused Systemwide Outage",
-        "body": "Two major U.S. disruptions in four days add pressure on airlines and the FAA to show their systems can hold up heading into Thanksgiving.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/16/united-airlines-resolves-tech-issue-that-caused-systemwide-outage/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-5b6610e5",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "OpenAI Is Hiring Engineers to Build Travel Into ChatGPT",
-        "body": "OpenAI is getting serious about travel: Francis Davidson, formerly of Sonder and acquisition target Odessia, is now the AI company's very first head of travel. And he’s already hunting for builders to design how trip requests work in ChatGPT.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/16/openai-is-hiring-engineers-to-build-travel-into-chatgpt/",
-            "label": "skift.com"
-          }
-        ],
         "companies": true
       },
       {
-        "id": "news-b805b4c4",
+        "id": "news-a365878f",
         "date": "2026-11-17",
         "dateLabel": "11/17（火）",
         "weekday": "火",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "Airlines Brace for Up to $1 Billion Hit From Ground Stop, but Holiday Demand Holds Steady",
-        "body": "Thanksgiving travelers have mostly shrugged off Friday’s ground stop. The four largest carriers haven’t been so lucky, facing up to $964 million in losses this quarter.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/16/ground-stop-dent-airlines-fourth-quarter-holiday-demand-steady/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-8bd89c16",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "Airbnb Updates House Rules After Host Pushback",
-        "body": "Hosts got through to Airbnb on their complaints and Airbnb made changes. But most of the policies that stoked host anger, such as a limit on guest checkout chores, a ban on contracts, and collecting guest IDs, remain in place.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/16/airbnb-makes-concessions-on-house-rules-after-host-pushback/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-7695c113",
-        "date": "2026-11-17",
-        "dateLabel": "11/17（火）",
-        "weekday": "火",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "Adani Turns Its Airports Into a Hotel Business",
-        "body": "As it uses its airports and surrounding land to build a hotel business, Adani is betting that its planned airport cities can attract enough businesses and visitors to support thousands of hotel rooms.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/16/adani-turns-its-airports-into-a-hotel-business/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-20674e48",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
         "feed": "industry",
         "feedLabel": "Aviation Wire",
         "category": "✈️ 国際線",
@@ -2111,305 +2399,17 @@
         "theme": "flights",
         "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "東大・JAL航空みらいラボら、成田空港の運用改善へ共同研究 GSEの動きデータ化検討",
-        "body": "東京大学先端科学技術研究センター（東大先端研）と成田国際空港会社（NAA）、日本航空（JAL/JL、9201）の100％子会社JAL航空みらいラボ（JLAB）、日本電気（NEC、6701）の4者は11月16日、航空・空",
+        "headline": "777X、シンガポール航空が客室レイアウト世界初公開 4クラス300席に",
+        "body": "ボーイングが開発中の次世代大型旅客機777Xで、航空会社が実際に採用する具体的な客室レイアウトが、世界で初めて明らかになった。シンガポール航空（SIA/SQ）が発表した777-9の座席数は4クラス300席で、ファースト",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.aviationwire.jp/archives/354649",
+            "url": "https://www.aviationwire.jp/archives/354738",
             "label": "aviationwire.jp"
           }
         ],
         "companies": false
-      },
-      {
-        "id": "news-d89cc2bb",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "国内空港に800億ドル必要 ACI、官民で投資リスク分担提言",
-        "body": "日本の空港には2056年までに約800億ドルの設備投資が必要になると、空港の国際団体ACI（国際空港評議会）のアジア太平洋・中東地域事務所が試算している。今後10年間の投資需要約290億ドルに対し、公表済みの投資案件は",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/354564",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-4b5ba33e",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "中部空港、26年4-9月期純利益6.2％増 中国減便続くも通期上方修正",
-        "body": "中部空港（セントレア）を運営する中部国際空港会社（CJIAC）の2026年4-9月期（27年3月期中間）連結決算は、純利益が前年同期比6.2％増の25億6700万円で、中間期として4期連続の最終黒字となった。中国路線の",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/354639",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-7489c539",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "マカオ航空、日本路線を対象に片道5,000円からの特別運賃キャンペーンとブラックフライデーセールを開催中",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/16/air-macau-sale-nov2026/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-fc6d618a",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "ベトナム航空、日本4空港でコート無料預かりサービス開始 2027年3月31日まで",
-        "body": "ベトナム航空は、「コートストレージサービス」を11月1日から2027年3月31日まで実施する。 冬の間は日本とベトナムが対照的な気候であることから、現地でのコートの持ち歩きの負担を軽減するため行う。対象は、ベトナム航空の",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261116386437/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-f96bad56",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "フィリピン航空、787-10型機15機の確定発注とGEnxエンジン導入で正式契約 オプション含め最大20機",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/16/philippine-airlines-signs-formal-agreement-for-firm-order-of-15-787-10-aircraft-and-selection-of-genx-engines/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-79638d0d",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "サン・フーコック航空、東京/成田〜ホーチミン線を開設へ",
-        "body": "サン・フーコック航空は、東京/成田〜ホーチミン線を2027年第1四半期に開設すると発表した。 機材はエアバスA321型機を使用する。ホーチミンからはフーコックやハノイ、ダナン、ハイフォン、ヴァンドンに接続する。当初はレジ",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261116388219/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-3d9b5e9d",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "キャセイパシフィック航空、ブラックフライデーセール開催 世界各地行きが最大15％オフ",
-        "body": "キャセイパシフィック航空は、「ブラックフライデーセール」を11月13日正午から30日まで開催している。 日本発着の世界各地行きのエコノミークラス、プレミアムエコノミークラス、ビジネスクラス往復航空券を対象に、最大15％を",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261116388223/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-51ed2d7d",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "アパグループ、アパホテル＆リゾート〈東京ベイ幕張〉に「アパミュージアム」を移転オープン",
-        "body": "アパグループは、アパホテル＆リゾート〈上越妙高〉で営業していた企業ミュージアム「アパミュージアム」を、アパホテル＆リゾート〈東京ベイ幕張〉に移転し、リニューアルオープンした。 場所はセントラルタワーの48階と49階。入場",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261116388227/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-f514c41f",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "U.S. Hotels Are Keeping Less and Less of Every Guest Dollar",
-        "body": "Hotel revenue is having a good year. The share that reaches the people who own the building hasn't. And that dynamic may not change anytime soon.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/16/u-s-hotels-are-keeping-less-and-less-of-every-guest-dollar/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-bf97f001",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "JAL航空みらいラボ、東大先端研・成田空港・NECと共同で「未来スカイ・ネクサス」を発足 先端技術で強靭な次世代航空エコシステムを構築へ",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/16/jal-aviation-future-lab-launches-future-sky-nexus-in-collaboration-with-the-university-of-tokyos-rcast-narita-airport-and-nec/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-c6d84f06",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "JAL、1〜2月の国内線でブラックフライデータイムセール あすからJMB会員先行予約開始",
-        "body": "日本航空（JAL）は、「JALunLun ブラックフライデー2026 国内線タイムセール」をあす11月17日から18日まで開催する。 片道最低運賃は、東京/羽田〜大阪/伊丹線が9,460円、東京/羽田〜札幌/千歳線が11",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261116388204/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-beac15ac",
-        "date": "2026-11-16",
-        "dateLabel": "11/16（月）",
-        "weekday": "月",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "In Jordan, Arab Travelers Fill Amman While Petra Waits for the West",
-        "body": "Jordan’s tourism income is growing only because Arab and Asian visitors are replacing Western ones, and they are heading for Amman, not Petra. Until Western governments lift their travel warnings, the sites Jordan built its tourism on will keep struggling.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/16/in-jordan-arab-travelers-fill-amman-while-petra-waits-for-the-west/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": true
       }
     ]
   }
