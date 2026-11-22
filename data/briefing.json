@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "window": {
     "start": "2026-11-01",
     "end": "2027-10-31"
   },
   "warnings": [],
   "events": {
-    "updated": "2026-11-21",
+    "updated": "2026-11-22",
     "note": "ドームの公演・試合と、日本および主な訪日市場の連休です。",
     "items": [
       {
@@ -1632,7 +1632,7 @@
     ]
   },
   "news": {
-    "updated": "2026-11-21",
+    "updated": "2026-11-22",
     "note": "旅行・航空・OTAの公開RSSです。手書きの実務メモはありません。",
     "filters": [
       {
@@ -1649,6 +1649,174 @@
       }
     ],
     "items": [
+      {
+        "id": "news-568de62e",
+        "date": "2026-11-22",
+        "dateLabel": "11/22（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "🏨 ホテル",
+        "categoryLabel": "🏨 ホテル",
+        "theme": "openings",
+        "themeLabel": "新規開業ホテル",
+        "highlight": false,
+        "headline": "栃木県那須町に愛犬同伴ホテル、28年末開業へ 東京建物など",
+        "body": "東京建物と東京建物リゾートは、栃木県那須町に愛犬が同伴できるラグジュアリーリゾートホテル「レジーナリゾート那須」を開発する。11月2日に着工し、2028年末ごろの開業を見込んでいる。 ホテルは東北自動車道那須ＩＣから",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611220900kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-35c85943",
+        "date": "2026-11-22",
+        "dateLabel": "11/22（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "国交省、成田空港の施設変更を許可 機能強化は「待ったなしの状況」 新貨物地区のエプロンや誘導路を新設へ",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/22/ministry-of-land-infrastructure-transport-and-tourism-approves-facility-changes-at-narita-airport/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-0aee9e6b",
+        "date": "2026-11-22",
+        "dateLabel": "11/22（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "トリプラ、宿泊予約システム「tripla Book」で標準会員連携を提供",
+        "body": "トリプラは、宿泊予約システム「tripla Book」で「標準会員連携」の提供を12月末から開始すると発表した。 宿泊施設が既存のCRMや会員・ポイントシステム、ログイン情報を変更せずにtripla Bookを導入できる",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261122388856/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-241eb318",
+        "date": "2026-11-22",
+        "dateLabel": "11/22（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "🌐 海外OTA",
+        "categoryLabel": "🌐 海外OTA",
+        "theme": "overseas",
+        "themeLabel": "海外OTA",
+        "highlight": false,
+        "headline": "インバウンド集客講座、11月30日に山形で開催 JR東日本×KKday、参加費無料",
+        "body": "JR東日本とKKdayは11月30日（火）、山形市のヤマコーホール（山交ビル７階）で「ゼロから始めるインバウンド集客講座」を開催する。 対象は山形県内で観光業に携わる観光施設・体験事業者など。定員は30名、参加費は無",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2610021500kks-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-3d365db4",
+        "date": "2026-11-22",
+        "dateLabel": "11/22（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "アエロメヒコ航空、東京/成田～メキシコシティ線が就航20周年 市場拡大とともに歩んだ20年",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/22/aeromexico-marks-20th-anniversary-of-its-tokyo-narita-mexico-city-route/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-0808d5a4",
+        "date": "2026-11-22",
+        "dateLabel": "11/22（日）",
+        "weekday": "日",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "【1/28 無料オンラインセミナー】投資物件を通じた 観光地活性の可能性～当ファンド事例を通じて～ 檜垣克己氏（地域創生ソリューション株式会社 代表取締役社長）",
+        "body": "【第65回】 2027年1月28日（木）13：00～14：00 講師：檜垣克己氏（地域創生ソリューション株式会社 代表取締役社長） 講演名：投資物件を通じた 観光地活性の可能性～当ファンド事例を通じて～ 【セミナーの概要",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2610071430kks-2-2-2-2-2-2-2-3-2-2-2/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-7395dd13",
+        "date": "2026-11-21",
+        "dateLabel": "11/21（土）",
+        "weekday": "土",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "高知空港国際線、旅客取扱施設利用料の上限認可 大人1,300円",
+        "body": "国土交通省は、高知空港ビルによる高知空港の旅客取扱施設利用料の上限認可申請を認可した。 高知空港国際線の旅客取扱施設利用料の上限は、大人1,300円、小人650円となる。大人は満12歳以上、小人は満2歳以上12歳未満が対",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261121388858/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
       {
         "id": "news-dd068448",
         "date": "2026-11-21",
@@ -1674,24 +1842,24 @@
         "companies": false
       },
       {
-        "id": "news-a8fa1b23",
+        "id": "news-da629fcc",
         "date": "2026-11-21",
         "dateLabel": "11/21（土）",
         "weekday": "土",
         "feed": "industry",
         "feedLabel": "観光経済新聞",
-        "category": "🏨 ホテル",
-        "categoryLabel": "🏨 ホテル",
-        "theme": "openings",
-        "themeLabel": "新規開業ホテル",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "西鉄ホテルズが家電付きホテル参入 29年に全国3都市で開業",
-        "body": "西鉄ホテルズ（福岡市、豊福辰也社長）は11月6日、多人数での旅行や中長期滞在に対応するアパートメントホテル事業に参入すると発表した。新ブランド「ＣｏＡＴＴ（コアット）」を立ち上げ、2029年に東京・両国、大阪・なんば、",
+        "headline": "観光庁、宿泊・観光施設など向けにユニバーサルデザイン実践セミナー 11月24日",
+        "body": "観光庁は11月24日13時から14時まで、宿泊施設や観光施設の事業者らを対象に、ウェビナー「お客様に選ばれ、稼げる宿泊施設・観光施設へ ユニバーサルデザイン実践術」を開催する。施設のユニバーサルデザインを「新たな顧客層",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611210800kks/",
+            "url": "https://www.kankokeizai.com/2611212000kks/",
             "label": "kankokeizai.com"
           }
         ],
@@ -1722,49 +1890,49 @@
         "companies": false
       },
       {
-        "id": "news-b4f43cd8",
+        "id": "news-212cb6b6",
         "date": "2026-11-21",
         "dateLabel": "11/21（土）",
         "weekday": "土",
         "feed": "industry",
-        "feedLabel": "観光経済新聞",
+        "feedLabel": "トラシー",
         "category": "旅行業界",
         "categoryLabel": "旅行業界",
         "theme": "domestic",
         "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "山口県長門市の江原市長が本社訪問 「観光への住民評価高い」",
-        "body": "山口県長門市の江原達也市長が4日、東京都台東区の観光経済新聞社を訪問した。長門市の住民満足度調査の結果、「観光客の来訪によって経済的に良い影響を感じている」とした回答が全体の70.9％に上ったことなどを紹介した上で、市",
+        "headline": "宮古島エクセルホテル東急スカイテラス、2027年4月にリブランドオープン",
+        "body": "東急ホテルズ＆リゾーツは、「宮古島エクセルホテル東急スカイテラス」を2027年4月にリブランドオープンする。 琉球キャピタル傘下の投資会社と、清水総合開発、西松建設、長谷工総合開発が設立したアズールリーフが取得した。みず",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611210900kks/",
-            "label": "kankokeizai.com"
+            "url": "https://www.traicy.com/posts/20261121389052/",
+            "label": "traicy.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-ee0969f0",
+        "id": "news-2d8795ef",
         "date": "2026-11-21",
         "dateLabel": "11/21（土）",
         "weekday": "土",
         "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "京都・和束町が京都文教大と包括協定締結 まちづくり、観光振興で協力",
-        "body": "京都府和束町は10月20日、まちづくりや観光振興で協働しようと、京都文教大学（宇治市）と包括連携協定を締結した。大学の持つ専門的な知見や学生の柔軟な発想を地域課題の解決に生かすとともに、学生にとって町が実践的な学びの場",
+        "headline": "国交省、成田空港の機能強化に伴う施設変更を許可 誘導路とエプロンを新設",
+        "body": "国土交通省は、成田国際空港による航空法第43条に基づく空港等変更許可申請を許可した。 内容は、長さ7,044メートル・幅23メートルの誘導路の新設と、面積82万3,664平方メートルのエプロンの新設。完成の予定期日は20",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611210730kks/",
-            "label": "kankokeizai.com"
+            "url": "https://www.traicy.com/posts/20261121388860/",
+            "label": "traicy.com"
           }
         ],
         "companies": false
@@ -1794,52 +1962,28 @@
         "companies": false
       },
       {
-        "id": "news-bef6d8f7",
+        "id": "news-66b2affa",
         "date": "2026-11-21",
         "dateLabel": "11/21（土）",
         "weekday": "土",
         "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
         "highlight": false,
-        "headline": "主要旅行10社の9月営業実績 総取扱額は4％増2629億円 国内のみ前年下回る",
-        "body": "鉄道旅客協会がこのほど発表した主要旅行業10社の9月の総取扱額は、前年同月比4.1％増の2628億9739万円だった。海外、外国人は前年同月を大きく上回ったが、国内は下回った。 国内旅行は、前年同月比4.9％減の15",
+        "headline": "トリニティ航空、ブラックフライデーで国際線を最大20％割引 11月30日まで",
+        "body": "トリニティ航空は、「ブラックフライデークーポン」を11月20日から30日まで配布している。 日本発の韓国、中国、香港、ベトナム、インドネシア、フランス、イタリア、スペイン、オーストラリア、カナダ路線を対象に、4～20％を",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.kankokeizai.com/2611210630kks/",
-            "label": "kankokeizai.com"
+            "url": "https://www.traicy.com/posts/20261121388886/",
+            "label": "traicy.com"
           }
         ],
         "companies": false
-      },
-      {
-        "id": "news-92e24bf8",
-        "date": "2026-11-21",
-        "dateLabel": "11/21（土）",
-        "weekday": "土",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "インバウンド集客講座、11月30日に山形で開催 JR東日本×KKday、参加費無料",
-        "body": "JR東日本とKKdayは11月30日（火）、山形市のヤマコーホール（山交ビル７階）で「ゼロから始めるインバウンド集客講座」を開催する。 対象は山形県内で観光業に携わる観光施設・体験事業者など。定員は30名、参加費は無",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2610021500kks-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": true
       },
       {
         "id": "news-b91cd00c",
@@ -1861,78 +2005,6 @@
           {
             "url": "https://sky-budget.com/2026/11/21/american-airlines-to-discontinue-international-first-class-on-777-300er-aircraft/",
             "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-b285c3df",
-        "date": "2026-11-21",
-        "dateLabel": "11/21（土）",
-        "weekday": "土",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "【逆境をチャンスにー旅館の再生プラン 824】観光地経営と宿の役割(4) 青木康弘",
-        "body": "前回コラムでは、送迎にかけている費用やフロントに寄せられる移動の相談を数字にまとめ、ＤＭＯや自治体に持ち込むことの有効性を述べた。宿の手元にある日々の宿泊実績も、地域にとって価値の高い数字である。今回コラムでは、この数",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2611211100kks/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-f9d64b5d",
-        "date": "2026-11-21",
-        "dateLabel": "11/21（土）",
-        "weekday": "土",
-        "feed": "industry",
-        "feedLabel": "観光経済新聞",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "【12/3 無料オンラインセミナー】「わが国おける ホテル・旅館の実情」 徳江順一郎氏（東洋大学国際観光学部 准教授）",
-        "body": "【第64回】 2026年12月3日（木）13：00～14：00 講師：徳江順一郎氏（東洋大学国際観光学部 准教授） 講演名：「わが国おける ホテル・旅館の実情」 【セミナーの概要】 日本が誇る「おもてなし」というが、実際",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.kankokeizai.com/2610061430kks-2-2-2-2-2-2-2-2-2-2-2-2-2/",
-            "label": "kankokeizai.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-a6781110",
-        "date": "2026-11-21",
-        "dateLabel": "11/21（土）",
-        "weekday": "土",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "🏨 ホテル",
-        "categoryLabel": "🏨 ホテル",
-        "theme": "openings",
-        "themeLabel": "新規開業ホテル",
-        "highlight": false,
-        "headline": "「EN HOTEL Tokyo Kamata」、12月1日開業 旧アイホテル京急蒲田",
-        "body": "エンホテルズ&リゾーツは、「EN HOTEL Tokyo Kamata」を12月1日に開業する。 建物は12階建て。客室は既存の100室から、ダブル77室、バンクファミリー11室、ツイン1室の全89室に減室し、バンクベッ",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261121386093/",
-            "label": "traicy.com"
           }
         ],
         "companies": false
@@ -1962,7 +2034,7 @@
         "companies": true
       },
       {
-        "id": "news-64b831f6",
+        "id": "news-84a37803",
         "date": "2026-11-21",
         "dateLabel": "11/21（土）",
         "weekday": "土",
@@ -1973,17 +2045,17 @@
         "theme": "domestic",
         "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "HIS、「ブラックフライデー」で首都圏発ミステリーツアー6コースを販売 11月21日午前11時から販売",
-        "body": "エイチ・アイ・エス（HIS）は、「ブラックフライデー」で、行き先が分からないミステリーツアーを11月21日午前11時から販売する。 首都圏発では、東京/成田発のアジアミステリーツアー3日間が30,000円、自由気ままにア",
+        "headline": "IHGホテルズ＆リゾーツ、「サイバーセール」開催 最大30％オフ",
+        "body": "IHGホテルズ＆リゾーツは、「サイバーセール」を11月17日から12月3日まで開催する。 アジア太平洋地域の対象ホテルへの宿泊予約で、IHGワンリワーズ会員はベストフレキシブルレートから30％、会員以外は同20％を割引く",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.traicy.com/posts/20261121388848/",
+            "url": "https://www.traicy.com/posts/20261121389055/",
             "label": "traicy.com"
           }
         ],
-        "companies": true
+        "companies": false
       },
       {
         "id": "news-045448b7",
@@ -2029,102 +2101,6 @@
           {
             "url": "https://www.aviationwire.jp/archives/354940",
             "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-5e0360d0",
-        "date": "2026-11-20",
-        "dateLabel": "11/20（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "トリニティ航空、日本発着路線を対象に燃油・諸税込み片道18,380円からのセールを開催中",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/20/trinity-airways-sale-nov/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-a4bed2a7",
-        "date": "2026-11-20",
-        "dateLabel": "11/20（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "スプリング・ジャパン、6路線で冬スケジュールの航空券追加販売",
-        "body": "スプリング・ジャパンは、東京/成田〜ハルビン・天津・寧波・札幌/千歳・函館線と名古屋/中部〜札幌/千歳線で、冬スケジュールの航空券追加販売を実施する。 運航期間は2027年1月1日から3月27日までで、路線によって異なる",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261120388711/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-f7eecfa8",
-        "date": "2026-11-20",
-        "dateLabel": "11/20（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "エミレーツ航空、ドバイ空港に新ファーストクラスラウンジを開業 『寿司』や専用バーを提供、4億ディルハム投じる大規模刷新の第一弾",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/20/emirates-opens-new-first-class-lounge-at-dubai-airport/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-72d38d09",
-        "date": "2026-11-20",
-        "dateLabel": "11/20（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "エミレーツ航空、TIME誌「世界最高の航空会社2027」で第1位を獲得 客室改修やStarlink導入など継続投資が評価",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/20/emirates-ranked-no-1-in-time-magazines-worlds-best-airlines-2027-list/",
-            "label": "sky-budget.com"
           }
         ],
         "companies": false
@@ -2178,30 +2154,6 @@
         "companies": true
       },
       {
-        "id": "news-93d37be5",
-        "date": "2026-11-20",
-        "dateLabel": "11/20（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "旅行業界",
-        "categoryLabel": "旅行業界",
-        "theme": "domestic",
-        "themeLabel": "旅行業界",
-        "highlight": false,
-        "headline": "HIS、コスタクルーズと日本地区の総販売代理店契約を締結 日本発着クルーズの再開目指す",
-        "body": "エイチ・アイ・エス（HIS）は、イタリアのクルーズ会社であるコスタクルーズと、日本地区における総販売代理店（GSA）契約を締結したと発表した。 契約に基づき、HISはコスタクルーズ日本支社の事業運営とサポート機能を引き受",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261120388693/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": true
-      },
-      {
         "id": "news-601feb3d",
         "date": "2026-11-20",
         "dateLabel": "11/20（金）",
@@ -2224,54 +2176,6 @@
           }
         ],
         "companies": true
-      },
-      {
-        "id": "news-66745a9b",
-        "date": "2026-11-20",
-        "dateLabel": "11/20（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "ANA、国際線特典航空券で減額マイル 11月24日まで、ブラックフライデーキャンペーン",
-        "body": "全日本空輸（ANA）は、ブラックフライデーで「ANA国際線特典航空券 減額マイルキャンペーン」を11月20日から24日まで実施している。 対象路線は、東京/成田〜上海/浦東・大連・杭州・バンコク・シンガポール・ジャカルタ",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261120388823/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-decb06e9",
-        "date": "2026-11-20",
-        "dateLabel": "11/20（金）",
-        "weekday": "金",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "ANA、737ポケモンジェット青12/12就航 初便は能登行き",
-        "body": "全日本空輸（ANA/NH）は11月20日、ポケモン30周年を記念した特別塗装機「ポケモンジェット 青」（ボーイング737-800型機、登録記号JA56AN）を12月12日に国内線へ就航させると発表した。初便は羽田発能登",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/354885",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
       }
     ]
   }
