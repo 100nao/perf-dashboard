@@ -17,7 +17,6 @@ button{background:#1f5fa8;color:#fff;border:0;border-radius:8px;font-size:16px;p
 <p>パスワードを入力してください</p>
 <form id="f">
 <input type="password" id="pw" autocomplete="current-password" autofocus>
-<label><input type="checkbox" id="rem"> パスワードを記憶する</label>
 <button type="submit">開く</button>
 <div id="status"></div>
 <div id="err"></div>
@@ -25,7 +24,7 @@ button{background:#1f5fa8;color:#fff;border:0;border-radius:8px;font-size:16px;p
 </div>
 <script>
 const WRAP_A = {"salt":"/J6OX7fzFZrCg/IHXl03hA==","iv":"S1Jq4Qj+IwKQQN9O","ct":"bStui0cdGDrmmJIGoCfTTcx5My0dPp6iIxYaYTmkp6444stXwG0KGhMr5T2q5Pz5"};
-const PAYLOAD_PARTS = [1, 2, 3, 4].map(i => 'payload' + i + '-20261124v26.txt');
+const PAYLOAD_PARTS = [1, 2, 3, 4].map(i => 'payload' + i + '-20261125v27.txt');
 const LS_KEY = 'perf_pw';
 const unb64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
 async function unlock(pw) {
@@ -76,14 +75,12 @@ function render(html) {
 }
 const statusEl = document.getElementById('status');
 const errEl = document.getElementById('err');
-async function tryUnlock(pw, remember) {
+async function tryUnlock(pw) {
   errEl.textContent = '';
   statusEl.textContent = '開いています…（数秒かかります）';
   try {
     await unlock(pw);
-    if (remember) localStorage.setItem(LS_KEY, pw); else localStorage.removeItem(LS_KEY);
   } catch (e) {
-    localStorage.removeItem(LS_KEY);
     statusEl.textContent = '';
     errEl.textContent = 'パスワードが違うか、データを取得できませんでした。';
     document.getElementById('loginCard').style.display = '';
@@ -91,8 +88,8 @@ async function tryUnlock(pw, remember) {
 }
 document.getElementById('f').addEventListener('submit', ev => {
   ev.preventDefault();
-  tryUnlock(document.getElementById('pw').value, document.getElementById('rem').checked);
+  tryUnlock(document.getElementById('pw').value);
 });
-const saved = localStorage.getItem(LS_KEY);
-if (saved) tryUnlock(saved, true);
+// パスワードは記憶しない（旧版で保存されたものがあれば消す）。開くのは手入力のときだけ。
+try { localStorage.removeItem(LS_KEY); } catch (e) {}
 </script></body></html>
