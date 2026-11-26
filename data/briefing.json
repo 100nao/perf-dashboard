@@ -1,14 +1,12 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "window": {
     "start": "2026-11-01",
     "end": "2027-10-31"
   },
-  "warnings": [
-    "観光経済新聞を取得できませんでした"
-  ],
+  "warnings": [],
   "events": {
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "note": "ドームの公演・試合と、日本および主な訪日市場の連休です。",
     "items": [
       {
@@ -582,16 +580,16 @@
         "note": ""
       },
       {
-        "id": "dome-2027-01-19-8da1c702",
+        "id": "dome-2027-01-19-cc8fe29e",
         "date_start": "2027-01-19",
         "date_end": "2027-01-20",
-        "name": "＝LOVE in TOKYO DOME",
+        "name": "＝LOVE in TOKYO DOME「全ては＝LOVE」",
         "category": "コンサート",
         "prefecture": "東京都",
         "venue": "東京ドーム",
         "scale": "ドーム",
         "source_country": "",
-        "source": "https://www.tokyo-dome.co.jp/dome/event/3474",
+        "source": "https://equal-love.jp/feature/specialsite_tokyodomeconcert",
         "announced_date": "",
         "status": "",
         "note": ""
@@ -1664,7 +1662,7 @@
     ]
   },
   "news": {
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "note": "旅行・航空・OTAの公開RSSです。手書きの実務メモはありません。",
     "filters": [
       {
@@ -1682,175 +1680,583 @@
     ],
     "items": [
       {
-        "id": "news-405ac7ce",
-        "date": "2026-11-25",
-        "dateLabel": "11/25（水）",
-        "weekday": "水",
+        "id": "news-0c6cb7fe",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
         "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "楽天トラベル、「九州ふっこう応援割」を11月25日午前10時販売再開 宮崎県対象",
-        "body": "楽天グループは、旅行予約サイト「楽天トラベル」で、旅行支援「九州ふっこう応援割」の宮崎県の販売を、11月25日午前10時から再開する。 宿泊単体と航空券と宿泊がセットになった「ダイナミックパッケージ」が対象となる。宿泊期",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261125389333/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-b3a05e7b",
-        "date": "2026-11-25",
-        "dateLabel": "11/25（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "富山空港、航空ジャンク市12/5-6開催 航空部品や計器類も",
-        "body": "富山空港で12月5日と6日の2日間、「第3回 航空ジャンク市 in 富山空港」が開かれる。実際に使用されていた航空機のリサイクル部品や計器類、航空図、航空関連グッズなどを取りそろえ、展示・販売する。入場無料。 開催時",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/355100",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-eb2c44ea",
-        "date": "2026-11-25",
-        "dateLabel": "11/25（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "厦門航空、ボーイング737-8型機を50機発注 2031年から順次受領へ",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/25/xiamen-airlines-orders-50-boeing-737-8-aircraft-with-deliveries-to-begin-in-2031/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-d1cc865b",
-        "date": "2026-11-25",
-        "dateLabel": "11/25（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "Aviation Wire",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "厦門航空、737MAXを50機発注 31年から受領へ",
-        "body": "中国南方航空（CSN/CZ）は現地時間11月24日、傘下の厦門（アモイ）航空（CXA/MF）が米ボーイングと737-8（737 MAX 8）の購入契約を締結したと発表した。50機発注し、2031年から2034年にかけて",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.aviationwire.jp/archives/355120",
-            "label": "aviationwire.jp"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-01de4ecf",
-        "date": "2026-11-25",
-        "dateLabel": "11/25（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "アメリカン航空、エアバス機500機体制を達成 A320ファミリー世界最大の運航規模をさらに強固に",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/25/500th-airbus-fleet-american-air/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-0c9e894b",
-        "date": "2026-11-25",
-        "dateLabel": "11/25（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "アエロフロート・ロシア航空、初めてロシア国産塗料で航空機を再塗装 A320型機の「ドブロリョート」レトロ塗装を更新",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/25/aeroflot-repaints-an-aircraft-using-for-the-first-time-russian-made-paint/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-53eaad28",
-        "date": "2026-11-25",
-        "dateLabel": "11/25（水）",
-        "weekday": "水",
-        "feed": "industry",
-        "feedLabel": "トラシー",
+        "feedLabel": "観光経済新聞",
         "category": "旅行業界",
         "categoryLabel": "旅行業界",
         "theme": "domestic",
         "themeLabel": "旅行業界",
         "highlight": false,
-        "headline": "「スマイルホテル大宮西口」を12月1日リブランドオープン 県内4店舗目",
-        "body": "ホスピタリティオペレーションズは、「スマイルホテル大宮西口」を12月1日にリブランドオープンする。 旧スーパーホテルさいたま・大宮駅西口。建物は地上10階建て。客室は、ダブルルーム44室、ソファー付ダブルルーム73室、ロ",
+        "headline": "観光経済新聞チャンネル【アーカイブ動画】",
+        "body": "観光経済新聞チャンネルとは 観光経済新聞社は、日本の観光業界と地域の活性化に貢献するという思いのもと、2023年10月から「観光経済新聞チャンネル」をスタートしました。私どもの経営理念は、「あすの経営に役立つ情報とノウ",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://www.traicy.com/posts/20261125386900/",
+            "url": "https://www.kankokeizai.com/2611011800kks-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-3c786efe",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "森トラスト・ホテルズ＆リゾーツがSAFの原料提供 24施設に拡大",
+        "body": "森トラスト・ホテルズ＆リゾーツ（伊達美和子社長）はこのほど、運営するホテルとレストランで発生する廃食用油を、国産の持続可能な航空燃料（ＳＡＦ）の原料として提供する取り組みを24施設に拡大した。年間約30トンを提供する予",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611260730kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-77bd9c38",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "成田空港、2026年10月の発着回数・旅客数が過去最高 中国線は前年比57%に大幅減も韓国・欧州線が牽引",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/26/naa-data-oct2026/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-7a48be60",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "国交省、空港周辺の高さ制限見直し検討 ICAOが70年ぶり改正",
+        "body": "国土交通省航空局（JCAB）は、空港周辺の建築物などの高さを制限する「制限表面」の見直しに向けた検討を始め、11月27日に「制限表面の見直しに関する検討委員会」の初会合を開く。ICAO（国際民間航空機関）が2025年に",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/355171",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-6a4053a6",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "マレーシア航空のA350-900、なぜ全機退役？ 787-10導入時は機齢15年以上に",
+        "body": "マレーシア航空（MAS/MH）を傘下に持つマレーシア・アビエーション・グループ（MAG）は、現有のエアバスA350-900型機全7機を段階的に退役させ、ボーイング787-10型機を導入する計画を現地時間11月25日に発",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/355176",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-8316ee8c",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "パキスタン航空、英発2便を急遽欠航 運航委託し財務危機のノース・アトランティック航空が事前通知なく運航停止",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/26/pia-news-north-atlantic-airways/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-37667b2b",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ノース・アトランティック航空、財務状況が「危機的」と公式発表 運航継続へ買収交渉や短期資金調達を模索",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/26/norse-atlantic-airways-officially-declares-its-financial-situation-critical/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-0701abd4",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "チェジュ航空、韓国まで片道総額14,530円～のセールを開催中《11月～12月搭乗分》",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/26/jeju-air-sale-nov2026/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-df1d8f8f",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "エミレーツ航空がTIME誌「世界最高の航空会社2027」で第1位 ベスト・バリューとビジネス・トラベルも制覇",
+        "body": "エミレーツ航空は11月19日、TIME誌とStatistaが初めて発表した「World’s Best Airlines 2027」で、世界最高の航空会社（World’s Best Airline）に選ばれた。ランキング",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611260930kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-ddf23ae9",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "🏨 ホテル",
+        "categoryLabel": "🏨 ホテル",
+        "theme": "openings",
+        "themeLabel": "新規開業ホテル",
+        "highlight": false,
+        "headline": "「東京麹町東急REIホテル」、2027年2月1日リブランド開業 旧東京グリーンパレス",
+        "body": "東急ホテルズ＆リゾーツは、「東京麹町東急REIホテル」を2027年2月1日にリブランド開業する。 建物は地上13階、地下1階建て。客室は室内は「都市の森」をテーマとし、シングル、ツイン、3名で宿泊可能な客室、靴を脱いで上",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261126381230/",
             "label": "traicy.com"
           }
         ],
         "companies": false
       },
       {
-        "id": "news-7e56d801",
+        "id": "news-ab692921",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "Wanted: A Strategy Chief to Bring Air India’s Two Airlines Closer",
+        "body": "IndiGo hired Air India Express' former chief as its strategy officer in March. Now Air India is creating a strategy role of its own. It looks like both airlines agree the job is worth having.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/25/wanted-a-strategy-chief-to-bring-air-indias-two-airlines-closer/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-53c933bf",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "🌐 海外OTA",
+        "categoryLabel": "🌐 海外OTA",
+        "theme": "overseas",
+        "themeLabel": "海外OTA",
+        "highlight": false,
+        "headline": "Middle East Tourism Has Split. Which Demand Gets Capital?",
+        "body": "Gulf travel now runs at two speeds. Pilgrimage and resort demand held through 2026, while long-haul and corporate travel fell away. Every 2027 capital and capacity plan for the region depends on which market an operator underwrites.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/25/middle-east-tourism-gulf-capital-2027/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-278067c5",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "スカイバジェット",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "MIATモンゴル航空、ボーイングと協力拡大の覚書を締結 2028年のアメリカ直行便就航を視野",
+        "body": "",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://sky-budget.com/2026/11/26/miat-mongolian-airlines-signs-memorandum-of-understanding-to-expand-cooperation-with-boeing/",
+            "label": "sky-budget.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-04138b4d",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "Expedia to Buy Kiwi.com, Extending Its Acquisition Spree Into Flights",
+        "body": "Expedia is buying its way toward becoming a one-stop shop for travel sellers and customers, even as the economics of that strategy come under pressure.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/25/expedia-to-buy-kiwi-com-extending-its-acquisition-spree-into-flights/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-479a34ea",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "🌐 海外OTA",
+        "categoryLabel": "🌐 海外OTA",
+        "theme": "overseas",
+        "themeLabel": "海外OTA",
+        "highlight": false,
+        "headline": "Clarins Family Takes Full Ownership of Luxury Hotel Group Evok",
+        "body": "The Courtin family behind the Clarins skincare empire is combining what the hotel industry usually splits apart: the buildings, the brands, and the operations of a luxury hotel group, under one owner.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/25/clarins-family-takes-full-ownership-of-luxury-hotel-group-evok/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": true
+      },
+      {
+        "id": "news-e9d3aa45",
+        "date": "2026-11-26",
+        "dateLabel": "11/26（木）",
+        "weekday": "木",
+        "feed": "industry",
+        "feedLabel": "観光経済新聞",
+        "category": "旅行業界",
+        "categoryLabel": "旅行業界",
+        "theme": "domestic",
+        "themeLabel": "旅行業界",
+        "highlight": false,
+        "headline": "10月の旅館・ホテルの景気ＤＩは11ヵ月ぶりに首位、5カ月ぶりに50超え",
+        "body": "帝国データバンクがこのほど公表した景気動向調査の今年10月分で、旅館・ホテルの景気ＤＩ（0～100、50が判断の分かれ目）は前月比5.2ポイント増の54.6。昨年11月（57.3）以来、11カ月ぶりに全51業種中の首位",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.kankokeizai.com/2611260800kks/",
+            "label": "kankokeizai.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-8f62baf7",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ヤフートラベル、「JAL限定早期予約クーポン」を追加配布 最大5,000円割引",
+        "body": "LINEヤフーは、旅行予約サイト「Yahoo!トラベル（ヤフートラベル）」で、「JAL限定早期予約クーポン」の追加配布を11月25日から開始した。 日本航空（JAL）の航空券とホテルのセットプラン「ヤフーパック」が対象で",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261125389486/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-722906b5",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "マレーシア航空、ボーイング787-10型機を最大16機導入へ A350を置き換え",
+        "body": "マレーシア・アビエーション・グループ（MAG）は、ボーイング787-10型機を最大16機導入する。 内訳は確定発注が10機、オプションが6機。2032年から2035年にかけて受領する。エンジンはゼネラル・エレクトリック（",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261125389477/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-2d2437ee",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "Aviation Wire",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "マレーシア航空、787-10最大16機導入 A350は全機退役へ",
+        "body": "マレーシア航空（MAS/MH）を傘下に持つマレーシア・アビエーション・グループ（MAG）は現地時間11月25日、ボーイング787-10型機10機を導入する計画を発表した。追加6機のオプションを設定しており、最大16機と",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.aviationwire.jp/archives/355141",
+            "label": "aviationwire.jp"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-35b58ad5",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "ノースアトランティック航空、財務状況が逼迫 買収交渉や短期融資を模索",
+        "body": "ノースアトランティック航空は、財務状況と戦略的見直しについての最新情報を公表した。 財務状況は深刻な状態にあるとし、短期的な流動性ニーズを満たし事業を継続するための資金調達が不可欠であると説明している。 アドバイザーの支",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261125389483/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-dd7dcdc2",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "カタール航空、ブラックフライデーセール開催 世界各地が最大20％オフ",
+        "body": "カタール航空は、ブラックフライデーセールを11月25日から12月1日まで開催している。 日本発のエコノミークラス、ビジネスクラス航空券を対象に、最大20％を割り引く。搭乗期間は11月25日から2027年6月30日まで。ブ",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261125389489/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-a9a8fbeb",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "カタール航空、ドーハ〜マルタ線の運航再開 2027年3月22日から週3往復",
+        "body": "カタール航空は、ドーハ〜マルタ線の運航を、2027年3月22日から再開する。 ドーハ〜マルタ線は週3往復を運航する。機材はエアバスA320型機（ビジネスクラス12席、エコノミークラス120席、計132席）を使用する。 年",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261125389347/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-6de1cd6d",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
+        "feed": "ota",
+        "feedLabel": "Skift",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "How Amadeus Pulled Away From Sabre and Travelport",
+        "body": "Amadeus gained distribution share and built a bigger airline IT business. Sabre and Travelport remain weighed down by heavy debt and a heavier reliance on distribution.",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://skift.com/2026/11/25/how-amadeus-pulled-away-from-sabre-and-travelport/",
+            "label": "skift.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-b357c63d",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
+        "feed": "industry",
+        "feedLabel": "トラシー",
+        "category": "✈️ 国際線",
+        "categoryLabel": "✈️ 国際線",
+        "theme": "flights",
+        "themeLabel": "新規フライト情報",
+        "highlight": false,
+        "headline": "HIS、「九州ふっこう応援割」の販売再開 熊本県対象",
+        "body": "エイチ・アイ・エス（HIS）は、旅行支援「九州ふっこう応援割」の熊本県の販売を再開した。 販売対象は航空券と宿泊がセットになった対象ツアーのみとなり、クーポンコードを入力する必要がある。 九州ふっこう応援割は、九州地方に",
+        "note": "",
+        "noteLabel": "",
+        "sources": [
+          {
+            "url": "https://www.traicy.com/posts/20261125389464/",
+            "label": "traicy.com"
+          }
+        ],
+        "companies": false
+      },
+      {
+        "id": "news-4bde3a82",
         "date": "2026-11-25",
         "dateLabel": "11/25（水）",
         "weekday": "水",
@@ -1861,95 +2267,23 @@
         "theme": "overseas",
         "themeLabel": "海外OTA",
         "highlight": false,
-        "headline": "Google Folds Hotel Ads Into Search, Upending How Properties Bid and Measure",
-        "body": "Goodbye to metasearch having its own ad budget and scorecard. Google lets hotels place ads in its price-comparison results, but is changing how they place those ads. Will the new process make ad buys harder to scrutinize?",
+        "headline": "Culture Is Driving New Interest in Travel for Ramadan",
+        "body": "Longer stays and a rise in cultural visits suggest Ramadan is becoming a more significant season in Abu Dhabi’s tourism calendar. The Department of Culture and Tourism - DCT Abu Dhabi now sees an opportunity to turn the holy month into a more deliberate travel proposition for both visitors and the global travel trade.",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://skift.com/2026/11/24/google-folds-hotel-ads-into-search-upending-how-properties-bid-and-measure/",
+            "url": "https://skift.com/2026/11/25/abu-dhabi-ramadan-travel-tourism/",
             "label": "skift.com"
           }
         ],
         "companies": true
       },
       {
-        "id": "news-c9ce10ad",
-        "date": "2026-11-24",
-        "dateLabel": "11/24（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "トラシー",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "トリップドットコム、海外航空券でタイムセール ソウル行き6,900円など",
-        "body": "トリップドットコム（Trip.com）は、「Super Flight Day」を11月25日午前10時から午後11時59分まで開催する。 エコノミークラス片道航空券を、特別価格で販売する。目的地と片道運賃は、ソウル行きが",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://www.traicy.com/posts/20261124389410/",
-            "label": "traicy.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-3fea94ab",
-        "date": "2026-11-24",
-        "dateLabel": "11/24（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "シンガポール航空、「SQワンダーラスト ブラックフライデー割」開催 最大20％オフでアジア7万円台、ロスまで往復総額約10万円",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/24/sigapore-airlines-sale-2026/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-a57d7df1",
-        "date": "2026-11-24",
-        "dateLabel": "11/24（火）",
-        "weekday": "火",
-        "feed": "industry",
-        "feedLabel": "スカイバジェット",
-        "category": "✈️ 国際線",
-        "categoryLabel": "✈️ 国際線",
-        "theme": "flights",
-        "themeLabel": "新規フライト情報",
-        "highlight": false,
-        "headline": "ZIPAIR、3年連続でAPEXのLCC部門「4スターエアライン」に選出",
-        "body": "",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://sky-budget.com/2026/11/24/zipair-named-a-4-star-airline-in-the-lcc-category-by-apex-for-the-third-consecutive-year/",
-            "label": "sky-budget.com"
-          }
-        ],
-        "companies": false
-      },
-      {
-        "id": "news-7128ec3f",
-        "date": "2026-11-24",
-        "dateLabel": "11/24（火）",
-        "weekday": "火",
+        "id": "news-78226ad3",
+        "date": "2026-11-25",
+        "dateLabel": "11/25（水）",
+        "weekday": "水",
         "feed": "ota",
         "feedLabel": "Skift",
         "category": "🌐 海外OTA",
@@ -1957,37 +2291,13 @@
         "theme": "overseas",
         "themeLabel": "海外OTA",
         "highlight": false,
-        "headline": "The Pressures on Expedia B2B",
-        "body": "Expedia's partner business has carried the company's growth for years. A slowdown caused by a tough comparison to last year's fourth quarter would be a blip. One driven by deteriorating economics and potentially a stronger rival in Booking Holdings would be a much larger issue.",
+        "headline": "As Dubai’s Hotels Struggle, Branded Homes Keep Launching",
+        "body": "Dubai’s hotels are under pressure, but developers are still signing deals for branded residences. The main bet is on buyers, with brands delivering a healthy premium over the wider market.",
         "note": "",
         "noteLabel": "",
         "sources": [
           {
-            "url": "https://skift.com/2026/11/23/the-pressures-on-expedia-b2b/",
-            "label": "skift.com"
-          }
-        ],
-        "companies": true
-      },
-      {
-        "id": "news-403dd0f4",
-        "date": "2026-11-24",
-        "dateLabel": "11/24（火）",
-        "weekday": "火",
-        "feed": "ota",
-        "feedLabel": "Skift",
-        "category": "🌐 海外OTA",
-        "categoryLabel": "🌐 海外OTA",
-        "theme": "overseas",
-        "themeLabel": "海外OTA",
-        "highlight": false,
-        "headline": "Iran War Strains Gulf Hotel Contracts, but Owners Aren’t Walking Away Yet",
-        "body": "Six months of weak trading has exposed how lopsided Gulf hotel management agreements are, with owners carrying the losses while operators keep collecting fees. For now, both sides would rather renegotiate than fight, but that patience depends on a recovery that hasn't come yet.",
-        "note": "",
-        "noteLabel": "",
-        "sources": [
-          {
-            "url": "https://skift.com/2026/11/24/iran-war-strains-gulf-hotel-contracts-but-owners-arent-walking-away-yet/",
+            "url": "https://skift.com/2026/11/25/as-dubais-hotels-struggle-branded-homes-keep-launching/",
             "label": "skift.com"
           }
         ],
